@@ -1,0 +1,44 @@
+@media screen and (max-width: 500px) {
+  .menu-toggle:checked ~ .menu-list {
+    display: flex;
+  }
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 calc(50% - 560px);
+  background: #201531;
+}
+@media screen and (max-width: 1140px) {
+  .menu-list {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  .menu-list li:not(:last-child) {
+    border-bottom: 1px solid #757575;
+  }
+}
+.menu-list-item {
+  padding: 20px 0;
+}
+.menu-list-item a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding-top: 17px;
+  border-top: 3px solid #201531;
+  transition: 0.5s border-top;
+}
+.menu-list-item a:hover {
+  border-top: 3px solid #fff;
+}
+
+/*# sourceMappingURL=Navigation.css.map */

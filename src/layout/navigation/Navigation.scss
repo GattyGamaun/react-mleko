@@ -1,0 +1,58 @@
+@import "../common/sass/variables";
+
+.menu {
+  &-toggle:checked  ~&-list {
+    @media screen and (max-width: 500px) {
+      display: flex;
+    }
+  }
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 calc(50% - 560px);
+    background: darken($header-background, 10%);
+
+    @media screen and (max-width: 1140px) {
+      padding: 0 15px;
+    }
+
+    @media screen and (max-width: 500px) {
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      transition: height 0.5s;
+      li:not(:last-child) {
+        border-bottom: 1px solid #757575;
+      }
+
+      //&:target {
+      //  height: 100%;
+      //}
+    }
+
+    &-item {
+      padding: 20px 0;
+
+      a {
+
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+
+        padding-top: 17px;
+        border-top: 3px solid darken($header-background, 10%);
+        transition: 0.5s border-top;
+
+        &:hover {
+          border-top: 3px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,74 @@
+@import "../common/sass/variables";
+
+header {
+  background: $header-background;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 34px;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px calc(50% - 560px);
+
+  @media screen and (max-width: 1140px){
+    padding: 10px 15px;
+  }
+}
+
+button.hamburger {
+  display: none;
+}
+
+.divider {
+  text-align: center;
+}
+
+.divider-head {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 5px;
+
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .divider-head {
+    display: block;
+    max-width: 40%;
+    padding-bottom: 5px;
+  }
+
+  button.hamburger {
+    display: block;
+  }
+}
