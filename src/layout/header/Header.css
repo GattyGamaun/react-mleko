@@ -1,18 +1,16 @@
-@import "../common/sass/variables";
-
 header {
-  background: $header-background;
+  background: #372554;
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 48px;
   color: #fff;
   cursor: pointer;
 }
 
 h2 {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 34px;
   color: #fff;
 }
@@ -23,8 +21,9 @@ header {
   align-items: center;
   margin: 0 auto;
   padding: 10px calc(50% - 560px);
-
-  @media screen and (max-width: 1140px){
+}
+@media screen and (max-width: 1140px) {
+  header {
     padding: 10px 15px;
   }
 }
@@ -38,7 +37,6 @@ header {
 }
 
 @media screen and (max-width: 770px) {
-
   header {
     flex-direction: column;
   }
@@ -51,7 +49,6 @@ header {
   h2 {
     font-size: 24px;
     padding: 5px;
-
   }
 
   header {
@@ -64,3 +61,5 @@ header {
     padding-bottom: 5px;
   }
 }
+
+/*# sourceMappingURL=Header.css.map */

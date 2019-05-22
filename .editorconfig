@@ -1,0 +1,19 @@
+# https://editorconfig.org/
+# top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{htm,html,hbs,css,sass,scss,js,json,sh,yml,xml}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.js]
+max_line_length = 120
+
+[*.md]
+trim_trailing_whitespace = false

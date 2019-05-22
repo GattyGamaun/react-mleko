@@ -1,9 +1,5 @@
-@media screen and (max-width: 500px) {
-  .menu-toggle:checked ~ .menu-list {
-    display: flex;
-  }
-}
 .menu-list {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;

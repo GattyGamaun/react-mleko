@@ -1,13 +1,8 @@
 @import "../common/sass/variables";
 
 .menu {
-  &-toggle:checked  ~&-list {
-    @media screen and (max-width: 500px) {
-      display: flex;
-    }
-  }
-
   &-list {
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
