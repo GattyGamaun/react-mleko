@@ -27,9 +27,10 @@
 
     &.is-active {
       @media screen and (max-width: 500px) {
-        position: relative;
+        position: absolute;
         display: flex;
         flex-direction: column;
+        width: 100%;
         overflow: hidden;
         transition: height 0.5s;
 
