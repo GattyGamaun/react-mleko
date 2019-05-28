@@ -49,7 +49,7 @@
 
       a {
         padding-top: 17px;
-        border-top: 3px solid darken($header-background, 10%);
+        border-top: 3px solid $header-background;
         transition: 0.5s border-top;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;

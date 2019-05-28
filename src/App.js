@@ -4,7 +4,7 @@ import './App.css';
 import Header from './layout/header/Header';
 import Navigation from './layout/navigation/Navigation';
 import MainImg from "./components/main-img/MainImg";
-
+import Footer from './layout/footer/Footer';
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
         <Header />
         <Navigation />
         <MainImg />
+        <Footer />
       </div>
     );
   }
