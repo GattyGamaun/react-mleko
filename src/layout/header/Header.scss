@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 10px calc(50% - 560px);
+  padding: 10px calc(50% - #{$main-width/2});
 
   @media screen and (max-width: 1140px){
     padding: 10px 15px;

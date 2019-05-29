@@ -1,54 +1,97 @@
 footer {
-  background: linear-gradient(to bottom, #45484d 0%, black 100%);
-  color: gainsboro;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 20px calc(50% - 560px);
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #DCDCDC;
+  background: linear-gradient(#45484d, black);
   overflow: hidden;
 }
-
-.foot-wrap {
-  margin: 0 -30px;
-  font-size: 0;
-}
-
-.foot-section {
-  font-size: 16px;
-  display: inline-block;
-  margin: 30px;
-  width: calc(100%/3 - 60px);
-  box-sizing: border-box;
-  vertical-align: top;
-}
-@media screen and (max-width: 910px) {
-  .foot-section .foot-section {
-    display: block;
-    width: calc(100% - 60px);
-    text-align: center;
+@media screen and (max-width: 1140px) {
+  footer {
+    padding: 15px;
   }
 }
 
-address {
-  font-style: normal;
+h5 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.foot-wrap {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-gap: 2em 1em;
+}
+@media screen and (max-width: 920px) {
+  .foot-wrap {
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+  }
+}
+
+.foot-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+@media screen and (max-width: 920px) {
+  .foot-section {
+    margin-top: 40px;
+  }
+}
+.foot-section.contacts {
+  align-items: end;
+}
+@media screen and (max-width: 920px) {
+  .foot-section.contacts {
+    align-items: center;
+  }
+}
+.foot-section.list {
+  align-items: flex-end;
+}
+@media screen and (max-width: 920px) {
+  .foot-section.list {
+    align-items: center;
+  }
+}
+.foot-section a:hover {
+  color: #fff;
+}
+.foot-section .foot-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media screen and (max-width: 920px) {
+  .foot-section .foot-links {
+    align-items: center;
+  }
+}
+
+.foot-title::after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 24px;
+  margin: 10px auto;
+  background-image: url("./img/divider-white.png");
 }
 
 .info {
   display: inline-block;
   padding: 5px 0;
-  color: gainsboro;
-  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .copyright {
-  font-size: 16px;
-  min-height: 10px;
-  text-align: center;
-  padding-bottom: 20px;
+  grid-column: 1/-1;
+  font-size: 12px;
 }
-
-.foot-section a:hover {
-  color: gold;
-}
-
-.center {
-  text-align: center;
+@media screen and (max-width: 920px) {
+  .copyright {
+    margin-top: 40px;
+  }
 }
 
 /*# sourceMappingURL=Footer.css.map */
