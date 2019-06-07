@@ -9,7 +9,7 @@ footer {
 }
 @media screen and (max-width: 1140px) {
   footer {
-    padding: 40px 20px 15px;
+    padding: 40px 20px 10px;
   }
 }
 
@@ -45,6 +45,10 @@ h5 {
     align-items: center;
   }
 }
+.foot-section.center {
+  align-items: center;
+  text-align: center;
+}
 .foot-section.list {
   align-items: flex-end;
 }
@@ -71,9 +75,10 @@ h5 {
   content: "";
   display: block;
   width: 250px;
-  height: 24px;
+  height: 27px;
   margin: 10px auto;
-  background-image: url("./img/divider-white.png");
+  background: url("./img/divider-white.png") no-repeat;
+  background-size: 255px;
 }
 
 .info {
@@ -84,6 +89,7 @@ h5 {
 .copyright {
   grid-column: 1/-1;
   font-size: 12px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=Footer.css.map */

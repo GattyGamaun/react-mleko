@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.scss';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -18,17 +19,17 @@ function Footer() {
         </div>
         <div className="foot-section center">
           <h5 className="foot-title">Приход в честь иконы Божией Матери «Млекопитательница»</h5>
-            <span className="info">Минская епархия</span>
-            <span className="info">Белорусский Экзархат</span>
-            <span className="info">Белорусская Православная Церковь</span>
+          <span className="info">Минская епархия</span>
+          <span className="info">Белорусский Экзархат</span>
+          <span className="info">Белорусская Православная Церковь</span>
         </div>
         <div className="foot-section list">
           <h5>Ссылки</h5>
           <ul className="foot-links">
-            <li><a href="./" className="info">Расписание</a></li>
-            <li><a href="#" className="info">Фотогалерея</a></li>
-            <li><a href="#" className="info">Стройка</a></li>
-            <li><a href="#" className="info">Контакты</a></li>
+            <li><Link to="/" className="info">Расписание</Link></li>
+            <li><Link to="/photo" className="info">Фотогалерея</Link></li>
+            <li><Link to="/building" className="info">Стройка</Link></li>
+            <li><Link to="/contacts" className="info">Контакты</Link></li>
             <li><a href="https://www.facebook.com/Хроники-Крошечного-Храма-1661296960861607/?fref=ts" className="info"
                    target="_blank" rel="noopener noreferrer">Facebook</a></li>
             <li><a href="https://www.instagram.com/orthodox_raubichi/"

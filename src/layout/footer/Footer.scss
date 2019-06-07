@@ -10,7 +10,7 @@ footer {
   overflow: hidden;
 
   @media screen and (max-width: 1140px) {
-    padding: 40px 20px 15px;
+    padding: 40px 20px $horizontal-small-padding;
   }
 }
 
@@ -45,6 +45,11 @@ h5 {
     }
   }
 
+  &.center {
+    align-items: center;
+    text-align: center;
+  }
+
   &.list {
     align-items: flex-end;
 
@@ -74,9 +79,10 @@ h5 {
     content: "";
     display: block;
     width: 250px;
-    height: 24px;
+    height: 27px;
     margin: 10px auto;
-    background-image: url("./img/divider-white.png");
+    background: url("./img/divider-white.png") no-repeat;
+    background-size: 255px;
   }
 }
 
@@ -88,4 +94,5 @@ h5 {
 .copyright {
   grid-column: 1/-1;
   font-size: 12px;
+  text-align: center;
 }
