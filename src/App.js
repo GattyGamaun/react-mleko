@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './layout/header/Header';
-import Navigation from './layout/navigation/Nav';
+import Navigation from './layout/navigation/Navigation';
 import MainImg from "./components/main-img/MainImg";
 
 

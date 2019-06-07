@@ -1,4 +1,16 @@
-@import "../common/sass/variables";
+@import '../common/sass/variables';
+@import './button-menu/_sass/hamburgers/hamburgers.scss';
+
+.hamburger {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+}
 
 .menu {
   &-list {
@@ -13,32 +25,34 @@
       padding: 0 15px;
     }
 
+    &.is-active {
+      @media screen and (max-width: 500px) {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: height 0.5s;
+
+        .menu-list-item:not(:last-child) {
+          border-bottom: 1px solid #757575;
+        }
+      }
+    }
+
     @media screen and (max-width: 500px) {
       display: none;
-      flex-direction: column;
-      overflow: hidden;
-      transition: height 0.5s;
-      li:not(:last-child) {
-        border-bottom: 1px solid #757575;
-      }
-
-      //&:target {
-      //  height: 100%;
-      //}
     }
 
     &-item {
       padding: 20px 0;
 
       a {
-
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-
         padding-top: 17px;
         border-top: 3px solid darken($header-background, 10%);
         transition: 0.5s border-top;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
 
         &:hover {
           border-top: 3px solid #fff;
