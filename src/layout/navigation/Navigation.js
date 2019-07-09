@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
+import { Link } from 'react-router-dom';
+
 
 class Navigation extends Component {
   constructor(props) {
@@ -28,10 +30,10 @@ class Navigation extends Component {
           </span>
         </button>
         <ul className={this.state.isToggleOn ? "menu-list" : "menu-list is-active"}>
-          <li className="menu-list-item"><a href="#">Расписание</a></li>
-          <li className="menu-list-item"><a href="#">Фотогалерея</a></li>
-          <li className="menu-list-item"><a href="#">Стройка</a></li>
-          <li className="menu-list-item"><a href="#">Контакты</a></li>
+          <li className="menu-list-item"><Link to="/">Расписание</Link></li>
+          <li className="menu-list-item"><Link to="/photo">Фотогалерея</Link></li>
+          <li className="menu-list-item"><Link to="/building">Стройка</Link></li>
+          <li className="menu-list-item"><Link to="/contacts">Контакты</Link></li>
         </ul>
       </nav>
     );

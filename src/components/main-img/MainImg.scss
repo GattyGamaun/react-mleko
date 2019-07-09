@@ -1,5 +1,6 @@
 @import "../../layout/common/sass/variables";
 
 .main-img {
-  max-width: $main-width;
+  width: 100%;
+  height: auto;
 }
