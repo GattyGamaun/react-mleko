@@ -11,6 +11,7 @@ h3 {
 }
 h3:after {
   content: url("./img/divider-gold.png");
+  display: block;
 }
 
 /*# sourceMappingURL=Article.css.map */
