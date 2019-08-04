@@ -1,0 +1,16 @@
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 20px;
+  border: 1px solid #757575;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+h3:after {
+  content: url("./img/divider-gold.png");
+}
+
+/*# sourceMappingURL=Article.css.map */
