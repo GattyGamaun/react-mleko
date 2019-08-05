@@ -7,7 +7,7 @@ import './MainImg.scss';
 class MainImg extends Component {
   render () {
     return (
-      <div>
+      <div className="wrapper-image">
         <img src={large}
              srcSet={`${large} 1200w, ${medium} 850w, ${small} 500w`}
              alt="Jesus in the coffin" className="main-img"/>

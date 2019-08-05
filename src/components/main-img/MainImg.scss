@@ -1,6 +1,10 @@
 @import "../../layout/common/sass/variables";
 
+.wrapper-image {
+  margin: auto;
+}
+
 .main-img {
-  width: 100%;
+  max-width: $main-width;
   height: auto;
 }
