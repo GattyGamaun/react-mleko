@@ -6,7 +6,7 @@ import ListOfArticles from '../../components/articles/ListOfArticles';
 function Main() {
   return (
     <div>
-      <MainImg />
+      {/*<MainImg />*/}
       <ListOfArticles articles={articles}/>
     </div>
   )

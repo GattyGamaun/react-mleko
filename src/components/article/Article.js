@@ -1,8 +1,14 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import './Article.css';
-import divider from './img/divider-gold.png';
 
 class Article extends Component {
+  static propTypes = {
+    article: PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+    })
+  };
   constructor(props) {
     super(props);
     this.state = {

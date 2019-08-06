@@ -13,7 +13,6 @@ const generate = () => {
     const image = imgObj(i, 4, 3);
     christmas.push(image);
   }
-  console.log(christmas);
 };
 
 generate();
