@@ -1,15 +1,15 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import './_App.scss';
 
 import Header from './layout/header/Header';
 import Navigation from './layout/navigation/Navigation';
 import Footer from './layout/footer/Footer';
 
-const App = ({children}) => (
+const App = ({ children }) => (
   <Fragment>
     <Header/>
+    <Navigation/>
     <div className="content">
-      <Navigation/>
       {children}
     </div>
     <Footer/>

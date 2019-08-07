@@ -1,5 +1,5 @@
 @import "reset.css";
-
+@import "layout/common/sass/variables";
 .App {
   text-align: center;
 }
@@ -13,7 +13,8 @@
   box-sizing: border-box;
 }
 
-
 .content {
+  margin: 0 auto;
+  max-width: $main-width;
   flex: 1 0 auto;
 }
