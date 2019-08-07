@@ -32,7 +32,7 @@ class Navigation extends Component {
           <li className="menu-list-item"><Link to="/">Расписание</Link></li>
           <li className="menu-list-item"><Link to="/photo">Фотогалерея</Link></li>
           <li className="menu-list-item"><Link to="/building">Стройка</Link></li>
-          <li className="menu-list-item"><Link to="/contacts">Контакты</Link></li>
+          <li className="menu-list-item"><Link to="/contacts">Расположение</Link></li>
         </ul>
       </nav>
     );

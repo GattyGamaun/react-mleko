@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './_Article.scss';
 
+// TODO make functional component
 class Article extends Component {
   static propTypes = {
     article: PropTypes.shape({

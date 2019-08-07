@@ -27,9 +27,9 @@ function Footer() {
           <h5>Ссылки</h5>
           <ul className="foot-links">
             <li><Link to="/" className="info">Расписание</Link></li>
+            <li><Link to="/contacts" className="info">Расположение</Link></li>
             <li><Link to="/photo" className="info">Фотогалерея</Link></li>
             <li><Link to="/building" className="info">Стройка</Link></li>
-            <li><Link to="/contacts" className="info">Контакты</Link></li>
             <li><a href="https://www.facebook.com/Хроники-Крошечного-Храма-1661296960861607/?fref=ts" className="info"
                    target="_blank" rel="noopener noreferrer">Facebook</a></li>
             <li><a href="https://www.instagram.com/orthodox_raubichi/"
