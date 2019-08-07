@@ -7,8 +7,8 @@ import Footer from './layout/footer/Footer';
 
 const App = ({children}) => (
   <Fragment>
-    <div className="content">
     <Header/>
+    <div className="content">
       <Navigation/>
       {children}
     </div>

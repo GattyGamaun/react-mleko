@@ -6,6 +6,7 @@ footer {
   font-family: 'Fira Sans Condensed', sans-serif;
   color: #DCDCDC;
   background: linear-gradient(rgb(69, 72, 77), rgb(0, 0, 0));
+  flex: 0 0 auto;
 
   @media screen and (max-width: 1140px) {
     padding: 40px 20px $horizontal-small-padding;
