@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import large from './img/main-img-desktop.jpg';
 import medium from './img/main-img-tablet.jpg';
 import small from './img/main-img-mobile.jpg';
-import './MainImg.scss';
+import './_MainImg.scss';
 
 class MainImg extends Component {
   render () {

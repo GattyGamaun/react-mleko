@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Navigation.scss';
+import './_Navigation.scss';
 import { Link } from 'react-router-dom';
 
 class Navigation extends Component {

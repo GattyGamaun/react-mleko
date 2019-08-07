@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './App.scss';
+import './_App.scss';
 
 import Header from './layout/header/Header';
 import Navigation from './layout/navigation/Navigation';
