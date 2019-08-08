@@ -1,3 +1,4 @@
+import { hot } from 'react-hot-loader/root';
 import React, { Fragment } from 'react';
 import './_App.scss';
 
@@ -16,4 +17,4 @@ const App = ({ children }) => (
   </Fragment>
 );
 
-export default App;
+export default hot(App);
