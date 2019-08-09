@@ -49,14 +49,14 @@
 
       a {
         padding-top: 17px;
-        border-top: 3px solid $header-background;
+        border-top: 3px solid transparent;
         transition: 0.5s border-top;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
-        color: white;
+        color: $white;
 
         &:hover {
-          border-top: 3px solid #fff;
+          border-top: 3px solid $white;
         }
       }
     }

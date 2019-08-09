@@ -8,6 +8,7 @@ class Article extends Component {
     article: PropTypes.shape({
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
+      text: PropTypes.array.isRequired,
     }),
   };
 
@@ -17,9 +18,9 @@ class Article extends Component {
     return (
       <article>
         <h3>{article.title}</h3>
-        <p>{article.description}</p>
+        <p className="text">{article.description}</p>
         {this.openText()}
-        <button onClick={toggleOpen}>
+        <button onClick={toggleOpen} className='text-btn'>
           {(!isOpen) ? 'читать целиком' : 'закрыть'}
         </button>
       </article>
@@ -29,7 +30,12 @@ class Article extends Component {
   openText() {
     const { article, isOpen } = this.props;
     if (!isOpen) return null;
-    return <section>{article.text}</section>;
+    const paragraphs = [];
+    // TODO check text is array
+    article.text.forEach((paragraph, key) => {
+      paragraphs.push(<p className="text expanded" key={key}>{paragraph}</p>);
+    });
+    return paragraphs;
   }
 }
 
