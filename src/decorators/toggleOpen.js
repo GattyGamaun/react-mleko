@@ -12,7 +12,7 @@ export default (OriginalComponent) => class WrappedComponent extends Component {
   }
 
   toggleOpen = (event) => {
-    // event.preventDefault();
+    event.preventDefault();
     this.setState({
       isOpen: !this.state.isOpen,
     });

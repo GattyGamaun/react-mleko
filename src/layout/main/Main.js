@@ -7,7 +7,7 @@ function Main() {
   return (
     <div>
       {/*<MainImg />*/}
-      <ListOfArticles articles={articles}/>
+      <ListOfArticles articles={articles} />
     </div>
   )
 }

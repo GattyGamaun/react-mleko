@@ -20,9 +20,11 @@ class Article extends Component {
         <h3>{article.title}</h3>
         <p className="text">{article.description}</p>
         {this.openText()}
-        <button onClick={toggleOpen} className='text-btn'>
-          {(!isOpen) ? 'читать целиком' : 'закрыть'}
-        </button>
+        <div className="button">
+          <button onClick={toggleOpen} className="button-input">
+            {(!isOpen) ? 'читать целиком' : 'закрыть'}
+          </button>
+        </div>
       </article>
     );
   }
