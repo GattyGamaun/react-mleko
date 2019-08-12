@@ -6,11 +6,11 @@ import Schedule from '../../components/schedule/Schedule';
 
 function Main() {
   return (
-    <div>
+    <section>
       {/*<MainImg />*/}
       <Schedule />
       <ListOfArticles articles={articles} />
-    </div>
+    </section>
   )
 }
 

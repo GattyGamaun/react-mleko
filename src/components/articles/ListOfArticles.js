@@ -1,5 +1,5 @@
 import React from 'react';
-import Article from '../article/Article';
+import Article from '../article';
 
 /**
  * @return {null}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './_Article.scss';
+import './_style.scss';
 import toggleOpen from '../../decorators/toggleOpen';
 
-class Article extends Component {
+class Index extends Component {
   static propTypes = {
     article: PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -41,4 +41,4 @@ class Article extends Component {
   }
 }
 
-export default toggleOpen(Article);
+export default toggleOpen(Index);
