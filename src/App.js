@@ -10,7 +10,7 @@ const App = ({ children }) => (
   <Fragment>
     <Header/>
     <Navigation/>
-    <div className="content">
+    <div>
       {children}
     </div>
     <Footer/>

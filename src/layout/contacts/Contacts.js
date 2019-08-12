@@ -13,15 +13,16 @@ class Contacts extends Component {
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true
+      showingInfoWindow: true,
     });
 
   onMapClicked = (props) => {
+    console.log('onMapClicked',props);
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
-        activeMarker: null
-      })
+        activeMarker: null,
+      });
     }
   };
 
@@ -32,16 +33,6 @@ class Contacts extends Component {
       height: '500px',
     };
 
-    const headerStyle = {
-      margin: '10px 0px',
-      font: 'inherit',
-      color: '#000',
-      'font-size': '14px',
-    };
-
-    const decriptionStyle = {
-      width: '300px'
-    };
 
     return (
       <div className='map'>
@@ -50,7 +41,7 @@ class Contacts extends Component {
              style={mapStyle}
              initialCenter={{
                lat: 54.017930,
-               lng: 27.741845
+               lng: 27.741845,
              }}
              onClick={this.onMapClicked}>
 
@@ -60,21 +51,22 @@ class Contacts extends Component {
                   'холмами, полями, старыми деревеньками и новыми посёлками. Эти места принято называть «белорусской Швейцарией».'}
                   position={{
                     lat: 54.057930,
-                    lng: 27.741845
-                  }} />
+                    lng: 27.741845,
+                  }}/>
 
           <InfoWindow marker={this.state.activeMarker}
                       visible={this.state.showingInfoWindow}>
-            <div style={decriptionStyle}>
-              <h1 style={headerStyle}>{this.state.selectedPlace.title}</h1>
+            <div className='description'>
+              <h1 className='contacts-header'>{this.state.selectedPlace.title}</h1>
               <p>{this.state.selectedPlace.description}</p>
             </div>
           </InfoWindow>
         </Map>
       </div>
-    )
+    );
   }
 }
+
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyAadUiUkmwLQZd7BEYHCI3VybASpY4qHQE')
-})(Contacts)
+  apiKey: ('AIzaSyAadUiUkmwLQZd7BEYHCI3VybASpY4qHQE'),
+})(Contacts);
