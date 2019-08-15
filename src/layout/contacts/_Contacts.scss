@@ -1,6 +1,27 @@
-
+@import "../common/sass/variables";
 
 .map {
+  width: 100vw;
+  height: 100vh;
 
+  @media screen and (max-width: 1140px) {
+    width: 95vw;
+  }
+
+  &-header {
+    color: $text;
+    text-align: center;
+    font-size: $extra-large;
+  }
+
+  &-description {
+    width: 260px;
+    text-align: justify;
+
+    p {
+      text-indent: 1.5rem;
+    }
+  }
 }
+
 

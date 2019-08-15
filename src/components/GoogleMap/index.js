@@ -1,70 +1,50 @@
-import React, { Component } from 'react';
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
+import React, { useState } from 'react';
+import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps';
 import './_style.scss';
+import * as about from '../../data/about';
 
-class GoogleMap extends Component {
-  state = {
-    showingInfoWindow: false,
-    activeMarker: {},
-    selectedPlace: {},
-  };
+function Map() {
+  const [selectedChurch, setSelectedChurch] = useState(null);
 
-  onMarkerClick = (props, marker, e) =>
-    this.setState({
-      selectedPlace: props,
-      activeMarker: marker,
-      showingInfoWindow: true,
-    });
+  return (
+    <GoogleMap
+      defaultZoom={11}
+      defaultCenter={{ lat: 54.057930, lng: 27.741845 }}
+    >
 
-  onMapClicked = (props) => {
-    console.log('onMapClicked',props);
-    if (this.state.showingInfoWindow) {
-      this.setState({
-        showingInfoWindow: false,
-        activeMarker: null,
-      });
-    }
-  };
+      {about.info.map(item => (
+        <Marker
+          position={{ lat: 54.057930, lng: 27.741845 }}
+          onClick={() => {
+            setSelectedChurch(item);
+          }}
+          icon={{
+            url: './church.svg',
+            scaledSize: new window.google.maps.Size(50,50)
+          }}
+        />
+      ))
+      }
 
-  render() {
-    const mapStyle = {
-      width: '100%',
-      height: '500px',
-    };
+      {selectedChurch && (
+        <InfoWindow
+          position={{ lat: 54.057930, lng: 27.741845 }}
+          onCloseClick={() => {
+            setSelectedChurch(null);
+          }}
+        >
+          <div className='map-description'>
+            <h2 className='map-header'>{selectedChurch.mainTitle}</h2>
+            <p>{selectedChurch.description}
+            </p>
+          </div>
+        </InfoWindow>
+      )}
 
-    return (
-      <div id='map'>
-        <Map google={this.props.google}
-             zoom={10}
-             style={mapStyle}
-             initialCenter={{
-               lat: 54.017930,
-               lng: 27.741845,
-             }}
-             onClick={this.onMapClicked}>
-
-          <Marker onClick={this.onMarkerClick}
-                  title={'Храм в честь иконы Божией Матери "Млекопитательница". д. Раубичи'}
-                  description={'В Раубичах очень красиво. Большое озеро с заливами и островами окружёно поросшими лесом ' +
-                  'холмами, полями, старыми деревеньками и новыми посёлками. Эти места принято называть «белорусской Швейцарией».'}
-                  position={{
-                    lat: 54.057930,
-                    lng: 27.741845,
-                  }}/>
-
-          <InfoWindow marker={this.state.activeMarker}
-                      visible={this.state.showingInfoWindow}>
-            <div className='description'>
-              <h1 className='contacts-header'>{this.state.selectedPlace.title}</h1>
-              <p>{this.state.selectedPlace.description}</p>
-            </div>
-          </InfoWindow>
-        </Map>
-      </div>
-    );
-  }
+    </GoogleMap>
+  );
 }
 
-export default GoogleApiWrapper({
-  apiKey: ('AIzaSyAadUiUkmwLQZd7BEYHCI3VybASpY4qHQE'),
-})(GoogleMap);
+const WrappedMap = withScriptjs(withGoogleMap(Map));
+
+export default WrappedMap;
