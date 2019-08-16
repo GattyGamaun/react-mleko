@@ -1,4 +1,5 @@
 @import '../common/sass/variables';
+@import '../common/sass/media-query';
 @import './button-menu/_sass/hamburgers/hamburgers.scss';
 
 .hamburger {
@@ -7,7 +8,7 @@
   right: 0;
   display: none;
 
-  @media screen and (max-width: 500px) {
+  @include media-query('md') {
     display: block;
   }
 }
@@ -21,18 +22,21 @@
     padding: 0 calc(50% - 560px);
     background: darken($header-background, 10%);
 
-    @media screen and (max-width: 1140px) {
+    @include media-query('xl') {
       padding: 0 15px;
     }
 
     &.is-active {
-      @media screen and (max-width: 500px) {
+      @include media-query('md') {
         position: absolute;
         display: flex;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
         transition: height 0.5s;
+        z-index: 1;
+        align-items: stretch;
+        text-align: center;
 
         .menu-list-item:not(:last-child) {
           border-bottom: 1px solid #757575;
@@ -40,7 +44,7 @@
       }
     }
 
-    @media screen and (max-width: 500px) {
+    @include media-query('md') {
       display: none;
     }
 

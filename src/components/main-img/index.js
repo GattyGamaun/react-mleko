@@ -2,7 +2,7 @@ import React from 'react';
 import large from './img/main-img-desktop.jpg';
 import medium from './img/main-img-tablet.jpg';
 import small from './img/main-img-mobile.jpg';
-import './_MainImg.scss';
+import './_style.scss';
 
 function MainImg() {
   return (

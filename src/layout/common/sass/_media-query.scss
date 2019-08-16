@@ -1,0 +1,35 @@
+$breakpoints: (
+  xs: 320px,
+  sm: 560px,
+  md: 720px,
+  lg: 900px,
+  xl: 1200px,
+  xxl: 1300px
+) !default;
+
+$query-rules: (
+  xs: (max-width: map-get($breakpoints, 'xs')),
+  sm: (max-width: map-get($breakpoints, 'sm')),
+  md: (max-width: map-get($breakpoints, 'md')),
+  lg: (max-width: map-get($breakpoints, 'lg')),
+  xl: (max-width: map-get($breakpoints, 'xl')),
+  xxl: (max-width: map-get($breakpoints, 'xxl')),
+) !default;
+
+@mixin media-query($query-name: 'xs') {
+  $value: map-get($query-rules, $query-name); // Returns the value in a map associated with the given key. If the map doesn't have such a key, returns `null`.
+
+  @if $value { // If value found breakpoint in the list of breakpoints
+    $query: if(
+      type-of($value) == "string", // Return type of value
+      unquote($value),
+      inspect($value) // Returns the string representation of a value as it would be represented in Sass
+    );
+
+    @media #{$query} {
+      @content;
+    }
+  }  @else {
+    @error "No value found for `#{$query-name}`. " + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
