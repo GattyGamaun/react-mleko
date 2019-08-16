@@ -1,14 +1,15 @@
 @import "../common/sass/variables";
+@import '../common/sass/media-query';
 
 footer {
   width: 100%;
-  padding: 20px calc(50% - #{$main-width/2});
+  padding: 40px calc(50% - #{$main-width/2});
   font-family: 'Fira Sans Condensed', sans-serif;
   color: #DCDCDC;
   background: linear-gradient(rgb(69, 72, 77), rgb(0, 0, 0));
   flex: 0 0 auto;
 
-  @media screen and (max-width: 1140px) {
+  @include media-query('xl') {
     padding: 40px 20px $horizontal-small-padding;
   }
 }
@@ -23,7 +24,7 @@ h5 {
   grid-template-columns: 2fr 2fr 1fr;
   grid-gap: 2em 1em;
 
-  @media screen and (max-width: 920px) {
+  @include media-query('lg') {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto) 20px;
     grid-column: 1/-1;
@@ -39,7 +40,7 @@ h5 {
   &.contacts {
     align-items: end;
 
-    @media screen and (max-width: 920px) {
+    @include media-query('lg') {
       align-items: center;
     }
   }
@@ -52,7 +53,7 @@ h5 {
   &.list {
     align-items: flex-end;
 
-    @media screen and (max-width: 920px) {
+    @include media-query('lg') {
       align-items: center;
     }
   }
@@ -66,7 +67,7 @@ h5 {
     flex-direction: column;
     align-items: flex-end;
 
-    @media screen and (max-width: 920px) {
+    @include media-query('lg') {
       align-items: center;
     }
   }

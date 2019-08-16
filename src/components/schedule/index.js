@@ -1,14 +1,16 @@
 import React from 'react';
 import './_style.scss';
-import schedule from './img/schedule.png';
+import img from './img/schedule.png';
+import {schedule} from '../../data/about';
 
 function Schedule() {
   return (
     <figure>
       <figcaption>
-        <h3>Расписание богослужений</h3>
+        <h3>{schedule.title}</h3>
       </figcaption>
-      <img src={schedule} alt="Расписание"/>
+      <img src={img} alt="Расписание"/>
+      <p>{schedule.note}</p>
     </figure>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps';
 import './_style.scss';
-import * as about from '../../data/about';
+import { info } from '../../data/about';
 
 function Map() {
   const [selectedChurch, setSelectedChurch] = useState(null);
@@ -12,7 +12,7 @@ function Map() {
       defaultCenter={{ lat: 54.057930, lng: 27.741845 }}
     >
 
-      {about.info.map(item => (
+      {info.map(item => (
         <Marker
           position={{ lat: 54.057930, lng: 27.741845 }}
           onClick={() => {
@@ -20,7 +20,7 @@ function Map() {
           }}
           icon={{
             url: './church.svg',
-            scaledSize: new window.google.maps.Size(50,50)
+            scaledSize: new window.google.maps.Size(50, 50),
           }}
         />
       ))

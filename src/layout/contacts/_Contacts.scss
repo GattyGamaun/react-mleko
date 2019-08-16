@@ -1,10 +1,11 @@
 @import "../common/sass/variables";
+@import '../common/sass/media-query';
 
 .map {
   width: 100vw;
   height: 100vh;
 
-  @media screen and (max-width: 1140px) {
+  @include media-query('xl') {
     width: 95vw;
   }
 

@@ -3,6 +3,7 @@ import './_Contacts.scss';
 import WrappedMap from '../../components/GoogleMap';
 
 function Contacts() {
+  // TODO move key to env.local
   return (
     <section className='map'>
       <WrappedMap

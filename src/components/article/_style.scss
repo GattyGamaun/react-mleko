@@ -1,4 +1,5 @@
-@import "../../layout/common/sass/_variables";
+@import '../../layout/common/sass/_variables';
+@import '../../layout/common/sass/media-query';
 
 article {
   display: flex;
@@ -6,10 +7,14 @@ article {
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #c7c7c7;
-  background: #fff;
+  background: $white;
 
+  @include media-query('xl') {
+    margin: 20px;
+    padding: 20px 15px;
+  }
 
-  @media screen and (max-width: 770px) {
+  @include media-query('md') {
     margin: 10px;
     padding: 15px 10px;
   }
@@ -56,7 +61,7 @@ h3 {
   padding: 4px;
   align-self: center;
 
-  @media screen and (max-width: 770px) {
+  @include media-query('md') {
     align-self: stretch;
   }
 
@@ -73,7 +78,7 @@ h3 {
     border: none;
     width: 200px;
 
-    @media screen and (max-width: 770px) {
+    @include media-query('md') {
       width: 100%;
     }
 

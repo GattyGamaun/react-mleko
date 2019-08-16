@@ -18,3 +18,8 @@
   max-width: $main-width;
   flex: 1 0 auto;
 }
+
+p {
+  color: $text;
+  font-family: 'Playfair Display', 'Helvetica', serif;
+}
