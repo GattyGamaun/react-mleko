@@ -1,0 +1,23 @@
+@import "../common/sass/variables";
+@import '../common/sass/media-query';
+
+.photo {
+  margin: 20px auto;
+  max-width: $main-width;
+  color: $text;
+  font-family: 'Playfair Display', 'Helvetica', serif;
+}
+
+.tab {
+  margin-right: 10px;
+  padding: 20px 10px;
+  background: $white;
+  border: 1px solid $text;
+
+  &:hover, &:focus {
+    color: dodgerblue;
+    border: 1px solid $text;
+  }
+
+
+}

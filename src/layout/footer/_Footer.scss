@@ -10,7 +10,7 @@ footer {
   flex: 0 0 auto;
 
   @include media-query('xl') {
-    padding: 40px 20px $horizontal-small-padding;
+    padding: 40px 20px;
   }
 }
 

@@ -38,15 +38,13 @@ function Footer() {
           </ul>
         </div>
         <div className="copyright">
-          <p>
-            <a href="https://www.linkedin.com/in/sergey-kondratiuk-570a64116/"
-               className="info" target="_blank" rel="noopener noreferrer">
-              Разработал сайт Сергей Кондратюк &copy; 2017-2019</a>
-          </p>
+          <a href="https://www.linkedin.com/in/sergey-kondratiuk-570a64116/"
+             className="info" target="_blank" rel="noopener noreferrer">
+            Разработал сайт Сергей Кондратюк &copy; 2017-2019</a>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer;

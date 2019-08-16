@@ -6,7 +6,7 @@ import christmas from './img/2018/chirstmas';
 import throne from './img/2018/throne';
 import trinity from './img/2018/trinity';
 
-import './_Photo.scss';
+import './_style.scss';
 
 function PhotoGrid() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -22,9 +22,9 @@ function PhotoGrid() {
     setViewerIsOpen(false);
   };
   return (
-    <section>
+    <section className="photo">
       <Tabs defaultActiveKey="trinity" transition={false} id="uncontrolled-tab-example">
-        <Tab eventKey="christmas" title="Рождество и Крещение">
+        <Tab eventKey="christmas" title="Рождество и Крещение" tabClassName="tab">
           <Gallery photos={christmas} onClick={openLightbox}/>
           <ModalGateway>
             {viewerIsOpen ? (
@@ -41,7 +41,7 @@ function PhotoGrid() {
             ) : null}
           </ModalGateway>
         </Tab>
-        <Tab eventKey="throne" title="Престольный праздник">
+        <Tab eventKey="throne" title="Престольный праздник" tabClassName="tab">
           <Gallery photos={throne} onClick={openLightbox}/>
           <ModalGateway>
             {viewerIsOpen ? (
@@ -58,7 +58,7 @@ function PhotoGrid() {
             ) : null}
           </ModalGateway>
         </Tab>
-        <Tab eventKey="trinity" title="Троица">
+        <Tab eventKey="trinity" title="Троица" tabClassName="tab">
           <Gallery photos={trinity} onClick={openLightbox}/>
           <ModalGateway>
             {viewerIsOpen ? (

@@ -6,7 +6,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import Main from './layout/main/Main';
 import Contacts from './layout/contacts/Contacts';
-import Photo from './layout/photo/Photo';
+import Photo from './layout/photo';
 
 ReactDOM.render(
   (<BrowserRouter>

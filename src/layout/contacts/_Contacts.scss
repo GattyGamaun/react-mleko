@@ -2,7 +2,8 @@
 @import '../common/sass/media-query';
 
 .map {
-  width: 100vw;
+
+  width: $main-width;
   height: 100vh;
 
   @include media-query('xl') {
