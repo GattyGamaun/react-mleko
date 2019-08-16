@@ -10,7 +10,7 @@ class Article extends Component {
       text: PropTypes.array.isRequired,
     }),
     isOpen: PropTypes.bool,
-    toggleOpen: PropTypes.func
+    toggleOpen: PropTypes.func,
   };
 
   render() {
@@ -21,11 +21,9 @@ class Article extends Component {
         <h3>{article.title}</h3>
         <p className="text">{article.description}</p>
         {this.openText()}
-        <div className="button">
-          <button onClick={toggleOpen} className="button-input">
-            {(!isOpen) ? 'читать целиком' : 'закрыть'}
-          </button>
-        </div>
+        <button onClick={toggleOpen} className="button">
+          {(!isOpen) ? 'читать целиком' : 'закрыть'}
+        </button>
       </article>
     );
   }
