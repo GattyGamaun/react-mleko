@@ -11,6 +11,7 @@ const App = ({ children }) => (
     <section className='main-content'>
       {children}
     </section>
+
     <Footer/>
   </Fragment>
 );

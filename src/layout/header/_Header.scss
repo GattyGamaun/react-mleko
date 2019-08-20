@@ -17,7 +17,7 @@ header {
 
   @include media-query('xl') {
     flex-direction: column;
-    padding: 10px $horizontal-small-padding;
+    padding: 10px;
   }
 }
 

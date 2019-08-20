@@ -1,0 +1,22 @@
+@import '../common/sass/variables';
+@import '../common/sass/media-query';
+
+.wrapper {
+  display: flex;
+
+
+  @include media-query('md') {
+    flex-direction: column;
+    margin: $md;
+  }
+}
+
+.main {
+  @include media-query('xl') {
+    margin-left: $xl;
+  }
+
+  @include media-query('md') {
+    margin-left: 0;
+  }
+}

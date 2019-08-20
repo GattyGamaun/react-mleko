@@ -5,16 +5,15 @@ figure {
   background: $white;
   text-align: center;
   border: 1px solid #c7c7c7;
-  margin: 20px 0;
+  margin: $xl 0;
   padding: 20px;
 
   @include media-query('xl') {
-    margin: 20px;
     padding: 20px 15px;
   }
 
   @include media-query('md') {
-    margin: 10px;
+    margin: $md 0;
     padding: 15px 10px;
   }
 
