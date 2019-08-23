@@ -23,3 +23,16 @@ p {
   color: $text;
   font-family: 'Playfair Display', 'Helvetica', serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+span,
+figcaption {
+  font-size: 14px;
+}

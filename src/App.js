@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './_App.scss';
 import Header from './layout/header/Header';
-import Footer from './layout/footer/Footer';
+import Footer from './layout/footer';
 
 const App = ({ children }) => (
   <Fragment>
@@ -11,7 +11,6 @@ const App = ({ children }) => (
     <section className='main-content'>
       {children}
     </section>
-
     <Footer/>
   </Fragment>
 );

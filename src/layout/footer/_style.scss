@@ -5,7 +5,7 @@ footer {
   width: 100%;
   padding: 40px calc(50% - #{$main-width/2});
   font-family: 'Fira Sans Condensed', sans-serif;
-  color: #DCDCDC;
+  color: $footer-text;
   background: linear-gradient(rgb(69, 72, 77), rgb(0, 0, 0));
   flex: 0 0 auto;
 
@@ -58,8 +58,9 @@ h5 {
     }
   }
 
-  & a:hover {
-    color: #fff;
+  & a:hover,
+  & a:focus {
+    color: $white;
   }
 
   .foot-links {
@@ -95,4 +96,13 @@ h5 {
   grid-column: 1/-1;
   font-size: 12px;
   text-align: center;
+
+  .info {
+    color: $button-background;
+
+    &:hover,
+    &:focus {
+      color: $footer-text;
+    }
+  }
 }
