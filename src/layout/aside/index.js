@@ -11,7 +11,7 @@ function Aside() {
       </article>
       <article>
         <h4>{aside.thanks.title}</h4>
-        <span>{aside.thanks.text}</span>
+        <span className='thanks'>{aside.thanks.text}</span>
         <img src={aside.thanks.img.src} alt={aside.thanks.img.alt}/>
       </article>
       <article>
