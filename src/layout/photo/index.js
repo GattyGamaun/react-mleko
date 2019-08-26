@@ -2,7 +2,7 @@ import React, {useState, useCallback} from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
-import christmas from './img/2018/chirstmas';
+import christmas from './img/2018/christmas';
 import throne from './img/2018/throne';
 import trinity from './img/2018/trinity';
 

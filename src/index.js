@@ -8,8 +8,6 @@ import Main from './layout/main/Main';
 import Contacts from './layout/contacts/Contacts';
 import Photo from './layout/photo';
 
-console.log(process.env);
-
 ReactDOM.render(
   (<BrowserRouter>
     <App>

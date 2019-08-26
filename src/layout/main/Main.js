@@ -4,7 +4,7 @@ import { articles } from '../../data/data';
 import ListOfArticles from '../../components/articles';
 import Schedule from '../../components/schedule';
 import Aside from '../aside';
-import './_Main.scss';
+import './_style.scss';
 
 function Main() {
   return (
