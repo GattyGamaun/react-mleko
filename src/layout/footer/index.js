@@ -35,10 +35,10 @@ function Footer() {
         <div className="foot-section list">
           <h5>{links.title}</h5>
           <ul className="foot-links">
-            <li><Link to="/" className="info">{links.schedule}</Link></li>
-            <li><Link to="/contacts" className="info">{links.area}</Link></li>
-            <li><Link to="/photo" className="info">{links.gallery}</Link></li>
-            <li><Link to="/building" className="info">{links.building}</Link></li>
+            <li className="info"><Link to="/">{links.schedule}</Link></li>
+            <li className="info"><Link to="/contacts">{links.area}</Link></li>
+            <li className="info"><Link to="/photo">{links.gallery}</Link></li>
+            <li className="info"><Link to="/building">{links.building}</Link></li>
             <li>
               <a href={links.fb.href}
                  className="info"

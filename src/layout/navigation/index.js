@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './_Navigation.scss';
-import { Link } from 'react-router-dom';
+import './_styles.scss';
+import { NavLink } from 'react-router-dom';
+import { links } from '../../data/about';
 
 class Navigation extends Component {
   constructor(props) {
@@ -29,10 +30,26 @@ class Navigation extends Component {
           </span>
         </button>
         <ul className={this.state.isToggleOn ? "menu-list" : "menu-list is-active"}>
-          <li className="menu-list-item"><Link to="/">Расписание</Link></li>
-          <li className="menu-list-item"><Link to="/photo">Фотогалерея</Link></li>
-          <li className="menu-list-item"><Link to="/building">Стройка</Link></li>
-          <li className="menu-list-item"><Link to="/contacts">Расположение</Link></li>
+          <li className="menu-list-item">
+            <NavLink to="/" activeStyle={{ fontWeight: "bolder" }}>
+              {links.schedule}
+            </NavLink>
+          </li>
+          <li className="menu-list-item">
+            <NavLink to="/photo" activeStyle={{ fontWeight: "bolder" }}>
+              {links.gallery}
+            </NavLink>
+          </li>
+          <li className="menu-list-item">
+            <NavLink to="/building" activeStyle={{ fontWeight: "bolder" }}>
+              {links.building}
+            </NavLink>
+          </li>
+          <li className="menu-list-item">
+            <NavLink to="/contacts" activeStyle={{ fontWeight: "bolder" }}>
+              {links.area}
+            </NavLink>
+          </li>
         </ul>
       </nav>
     );

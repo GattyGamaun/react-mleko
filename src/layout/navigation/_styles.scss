@@ -59,14 +59,19 @@
         font-family: 'Open Sans', sans-serif;
         color: $white;
 
-        &:hover {
+        &:hover,
+        &:focus {
           border-top: 3px solid $white;
         }
+
+
       }
     }
   }
 }
 
 
-
+.test {
+  color: red;
+}
 
