@@ -1,83 +1,31 @@
-import React, {useState, useCallback} from 'react';
-import {Tabs, Tab} from 'react-bootstrap';
-import Gallery from "react-photo-gallery";
-import Carousel, {Modal, ModalGateway} from "react-images";
-import christmas from './img/2018/christmas';
-import throne from './img/2018/throne';
-import trinity from './img/2018/trinity';
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { links } from '../../data/about';
 import './_style.scss';
 
-function PhotoGrid() {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, {photo, index}) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+function Photo() {
   return (
     <section className="photo">
-      <Tabs defaultActiveKey="trinity" transition={false} id="uncontrolled-tab-example">
-        <Tab eventKey="christmas" title="Рождество и Крещение" tabClassName="tab">
-          <Gallery photos={christmas} onClick={openLightbox}/>
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={christmas.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </Tab>
-        <Tab eventKey="throne" title="Престольный праздник" tabClassName="tab">
-          <Gallery photos={throne} onClick={openLightbox}/>
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={throne.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </Tab>
-        <Tab eventKey="trinity" title="Троица" tabClassName="tab">
-          <Gallery photos={trinity} onClick={openLightbox}/>
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={trinity.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </Tab>
-      </Tabs>
+      <h4>2018</h4>
+      <ul>
+        <li className="photo-list">
+          <NavLink to={'/2018/christmas'}>
+            {links.christmas}
+          </NavLink>
+        </li>
+        <li className="photo-list">
+          <NavLink to={'/2018/throne'}>
+            {links.throne}
+          </NavLink>
+        </li>
+        <li className="photo-list">
+          <NavLink to={'/2018/trinity'}>
+            {links.trinity}
+          </NavLink>
+        </li>
+      </ul>
     </section>
   );
 }
 
-export default PhotoGrid;
+export default Photo;

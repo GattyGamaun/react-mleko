@@ -1,4 +1,4 @@
-const christmas = [
+export const christmas2018 = [
   {
     src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/christmas/christmas-1.jpg`,
     width: 19,
@@ -224,7 +224,221 @@ const christmas = [
     width: 9,
     height: 5,
   },
-    
-];
 
-export default christmas;
+];
+export const throne2018 = [
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/1.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/2.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/3.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/4.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/5.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/6.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/7.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/8.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/9.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/10.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/11.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/12.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/13.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/14.jpg`,
+    width: 19,
+    height: 7,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/15.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/16.jpg`,
+    width: 19,
+    height: 6,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/17.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/18.jpg`,
+    width: 12,
+    height: 9,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/19.jpg`,
+    width: 12,
+    height: 9,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/20.jpg`,
+    width: 12,
+    height: 9,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/21.jpg`,
+    width: 12,
+    height: 9,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/22.jpg`,
+    width: 18,
+    height: 9,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/23.jpg`,
+    width: 14,
+    height: 19,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/24.jpg`,
+    width: 11,
+    height: 19,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/25.jpg`,
+    width: 19,
+    height: 10,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/26.jpg`,
+    width: 11,
+    height: 19,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/27.jpg`,
+    width: 14,
+    height: 19,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/prestol/28.jpg`,
+    width: 13,
+    height: 19,
+  },
+
+];
+export const trinity2018 = [
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/1.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/2.jpg`,
+    width: 6,
+    height: 4,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/3.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/4.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/5.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/6.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/7.jpg`,
+    width: 19,
+    height: 14,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/8.jpg`,
+    width: 14,
+    height: 19,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/9.jpg`,
+    width: 7,
+    height: 5,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/10.jpg`,
+    width: 12,
+    height: 6,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/11.jpg`,
+    width: 12,
+    height: 8,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/12.jpg`,
+    width: 12,
+    height: 7,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/13.jpg`,
+    width: 12,
+    height: 7,
+  },
+  {
+    src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/troitsa/14.jpg`,
+    width: 19,
+    height: 10,
+  },
+
+];
