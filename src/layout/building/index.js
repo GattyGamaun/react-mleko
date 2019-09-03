@@ -1,39 +1,24 @@
-import React, { useState, useCallback } from 'react';
-import Gallery from 'react-photo-gallery';
-import Carousel, { Modal, ModalGateway } from 'react-images';
-import buildings from './buildings';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { links } from '../../data/about';
 
 
 function Building() {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
   return (
     <section className="photo">
-      <Gallery photos={buildings} onClick={openLightbox}/>
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={buildings.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      <h4>2017</h4>
+      <ul>
+        <li className="photo-list">
+          <NavLink to={'/2017/building/1'}>
+            {links.building_1}
+          </NavLink>
+        </li>
+        <li className="photo-list">
+          <NavLink to={'/2017/building/2'}>
+            {links.building_2}
+          </NavLink>
+        </li>
+      </ul>
     </section>
   );
 }

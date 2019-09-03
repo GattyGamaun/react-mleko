@@ -9,6 +9,7 @@ import Contacts from './layout/contacts/Contacts';
 import Photo from './layout/photo';
 import Building from './layout/building';
 import { getChristmas, getThrone, getTrinity } from './components/photoGrid';
+import { getBuildings1, getBuildings2 } from './components/bulding';
 import NotFound from './components/notFound';
 
 ReactDOM.render(
@@ -19,6 +20,8 @@ ReactDOM.render(
         <Route path='/photo' component={Photo}/>
         <Route path='/contacts' component={Contacts}/>
         <Route path='/building' component={Building}/>
+        <Route path='/2017/building/1' component={getBuildings1}/>
+        <Route path='/2017/building/2' component={getBuildings2}/>
         <Route path='/2018/christmas' component={getChristmas}/>
         <Route path='/2018/throne' component={getThrone}/>
         <Route path='/2018/trinity' component={getTrinity}/>
