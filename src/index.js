@@ -9,18 +9,20 @@ import Contacts from './layout/contacts/Contacts';
 import Photo from './layout/photo';
 import Building from './layout/building';
 import { getChristmas, getThrone, getTrinity } from './components/photoGrid';
+import NotFound from './components/notFound';
 
 ReactDOM.render(
   (<BrowserRouter>
     <App>
       <Switch>
-        <Route exact path='/' component={Main}/>
+        <Route path='/' component={Main} exact/>
         <Route path='/photo' component={Photo}/>
         <Route path='/contacts' component={Contacts}/>
         <Route path='/building' component={Building}/>
         <Route path='/2018/christmas' component={getChristmas}/>
         <Route path='/2018/throne' component={getThrone}/>
         <Route path='/2018/trinity' component={getTrinity}/>
+        <Route path='*' component={NotFound}/>
       </Switch>
     </App>
   </BrowserRouter>)
