@@ -1,5 +1,5 @@
 import React from 'react';
-import './_Header.scss';
+import './_styles.scss';
 import { Link } from 'react-router-dom';
 import Navigation from '../navigation';
 
