@@ -1,18 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './_style.scss';
-import img from './img/schedule.png';
 import {schedule} from '../../data/about';
 
-function Schedule() {
-  return (
-    <figure>
-      <figcaption>
-        <h3>{schedule.title}</h3>
-      </figcaption>
-      <img src={img} alt="Расписание"/>
-      <p>{schedule.note}</p>
-    </figure>
-  );
+class Schedule extends Component {
+  state = {
+    imageUrl: 'http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/img/schedule-39.jpg',
+  };
+
+  render() {
+    return (
+      <figure>
+        <figcaption>
+          <h3>{schedule.title}</h3>
+        </figcaption>
+        <img src={this.state.imageUrl} alt="Расписание"/>
+        <p>{schedule.note}</p>
+        <p className="updated">{schedule.updated}</p>
+      </figure>
+    );
+  }
 }
 
 export default Schedule;

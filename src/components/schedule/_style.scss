@@ -3,7 +3,6 @@
 
 figure {
   background: $white;
-  text-align: center;
   border: 1px solid #c7c7c7;
   margin: $xl 0;
   padding: 20px;
@@ -19,5 +18,12 @@ figure {
 
   img {
     max-width: 100%;
+    margin-bottom: 10px;
   }
+}
+
+.updated {
+  margin-top: 10px;
+  font-size: $extra-small;
+  font-style: italic;
 }
