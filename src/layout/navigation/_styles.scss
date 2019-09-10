@@ -28,7 +28,6 @@
 
     &.is-active {
       @include media-query('md') {
-        position: absolute;
         display: flex;
         flex-direction: column;
         width: 100%;
