@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './_styles.scss';
 import { NavLink } from 'react-router-dom';
-import { links } from '../../data/about';
+import { mainLinks } from '../../data/about';
 
 class Navigation extends Component {
   constructor(props) {
@@ -21,7 +21,8 @@ class Navigation extends Component {
   render() {
     return (
       <nav className="menu">
-        <button className={(this.state.isToggleOn) ? 'hamburger hamburger--3dy' : 'hamburger hamburger--3dy is-active'}
+        <button className={(this.state.isToggleOn)
+          ? 'hamburger hamburger--3dy' : 'hamburger hamburger--3dy is-active'}
                 type="button"
                 id="menu-toggle"
                 onClick={this.handleClick}>
@@ -30,26 +31,14 @@ class Navigation extends Component {
           </span>
         </button>
         <ul className={this.state.isToggleOn ? 'menu-list' : 'menu-list is-active'}>
-          <li className="menu-list-item">
-            <NavLink to="/" activeStyle={{ fontWeight: 'bolder' }}>
-              {links.schedule}
-            </NavLink>
-          </li>
-          <li className="menu-list-item">
-            <NavLink to="/photo" activeStyle={{ fontWeight: 'bolder' }}>
-              {links.gallery}
-            </NavLink>
-          </li>
-          <li className="menu-list-item">
-            <NavLink to="/building" activeStyle={{ fontWeight: 'bolder' }}>
-              {links.building}
-            </NavLink>
-          </li>
-          <li className="menu-list-item">
-            <NavLink to="/contacts" activeStyle={{ fontWeight: 'bolder' }}>
-              {links.area}
-            </NavLink>
-          </li>
+          {Object.entries(mainLinks).map(link => {
+            return (<li className="menu-list-item" key={link[0]}>
+                      <NavLink to={(link[0] === 'schedule') ? '/' : `/${link[0]}`}
+                               activeStyle={{ fontWeight: 'bolder' }}>
+                        {link[1]}
+                      </NavLink>
+                    </li>);
+          })}
         </ul>
       </nav>
     );

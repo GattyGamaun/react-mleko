@@ -1,7 +1,7 @@
 import React from 'react';
 import './_style.scss';
-import { Link } from 'react-router-dom';
-import { contacts, links } from '../../data/about';
+import { NavLink } from 'react-router-dom';
+import { contacts, links, mainLinks } from '../../data/about';
 
 function Footer() {
   return (
@@ -35,10 +35,14 @@ function Footer() {
         <div className="foot-section list">
           <h5>{links.title}</h5>
           <ul className="foot-links">
-            <li className="info"><Link to="/">{links.schedule}</Link></li>
-            <li className="info"><Link to="/contacts">{links.area}</Link></li>
-            <li className="info"><Link to="/photo">{links.gallery}</Link></li>
-            <li className="info"><Link to="/building">{links.building}</Link></li>
+            {Object.entries(mainLinks).map(link => {
+              return (<li className="info" key={link[0]}>
+                <NavLink to={(link[0] === 'schedule') ? '/' : `/${link[0]}`}
+                         activeStyle={{ fontWeight: 'bolder' }}>
+                  {link[1]}
+                </NavLink>
+              </li>);
+            })}
             <li>
               <a href={links.fb.href}
                  className="info"

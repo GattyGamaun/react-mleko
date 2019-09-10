@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Main from './layout/main/Main';
+import Main from './layout/main';
 import Contacts from './layout/contacts/Contacts';
 import Photo from './layout/photo';
 import Building from './layout/building';
@@ -17,7 +17,7 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route path='/' component={Main} exact/>
-        <Route path='/photo' component={Photo}/>
+        <Route path='/gallery' component={Photo}/>
         <Route path='/contacts' component={Contacts}/>
         <Route path='/building' component={Building}/>
         <Route path='/2017/building/1' component={getBuildings1}/>

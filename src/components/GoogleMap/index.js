@@ -14,6 +14,7 @@ function Map() {
 
       {info.map(item => (
         <Marker
+          key={item}
           position={{ lat: 54.057930, lng: 27.741845 }}
           onClick={() => {
             setSelectedChurch(item);
