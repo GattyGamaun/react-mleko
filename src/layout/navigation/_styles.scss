@@ -48,10 +48,9 @@
     }
 
     &-item {
-      padding: 20px 0;
-
       a {
-        padding-top: 17px;
+        display: block;
+        padding: 20px;
         border-top: 3px solid transparent;
         transition: 0.5s border-top;
         text-decoration: none;
@@ -61,6 +60,10 @@
         &:hover,
         &:focus {
           border-top: 3px solid $white;
+
+          @include media-query('md') {
+            border-top: 3px solid transparent;
+          }
         }
       }
     }

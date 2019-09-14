@@ -17,7 +17,7 @@
     },
     "images": {
       "invite": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/img/Priglashenie-1_1-Vertical.png",
+        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/invite.png",
         "alt": "Приглашение строить храм"
       }
     },
@@ -25,15 +25,22 @@
       "title" : "Благодарим принимающих участие в возведении храма",
       "text" : "Юлия, Игорь, Ирина, Андрей, Николай, Иван, Андрей, Анатолий, Александра, Александра, Леонид, Артем, Елизавета, Ксения, Вероника, Ирина, Сергей, Наталья, Алла, Валентина, Людмила, Светлана, Анатолий, Дима, Аня, Саша, Андрей, Маша, Владимир, Владимир, Тамара, Наташа, Елена, Анна, Рудик",
       "img" : {
-        "src" : "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/img/head.jpg",
+        "src" : "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head.jpg",
         "alt" : "Изображение строящих храм"
       }
     },
     "capsule" : {
       "title" : "Поздравление митр. Павла после закладки капсулы",
       "img" : {
-        "src" : "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/img/head_2.jpg",
+        "src" : "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head_2.jpg",
         "alt" : "Встреча митрополита Павла"
+      }
+    },
+    "bells" : {
+      "title" : "Освящение колоколов митр. Павлом",
+      "img" : {
+        "src" : "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/bells.jpg",
+        "alt" : "Освящение колоколов митрополитом Павлом"
       }
     }
   },

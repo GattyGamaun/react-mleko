@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './_style.scss';
 import { aside } from '../../data/about';
 
@@ -18,12 +18,18 @@ function Aside() {
         <h4>{aside.library.title}</h4>
         <span>{aside.library.text}</span>
       </article>
-      <article>
+      <Fragment>
         <figure>
           <img src={aside.capsule.img.src} alt={aside.capsule.img.alt}/>
           <figcaption>{aside.capsule.title}</figcaption>
         </figure>
-      </article>
+      </Fragment>
+      <Fragment>
+        <figure>
+          <img src={aside.bells.img.src} alt={aside.bells.img.alt}/>
+          <figcaption>{aside.bells.title}</figcaption>
+        </figure>
+      </Fragment>
     </aside>
   );
 }
