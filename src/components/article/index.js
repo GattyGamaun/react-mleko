@@ -8,6 +8,7 @@ class Article extends Component {
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       text: PropTypes.array.isRequired,
+      src: PropTypes.string,
     }),
     isOpen: PropTypes.bool,
     toggleOpen: PropTypes.func,
@@ -15,11 +16,12 @@ class Article extends Component {
 
   render() {
     const { article, isOpen, toggleOpen } = this.props;
-
+    console.log(this.props);
     return (
       <article>
         <h3>{article.title}</h3>
         <p className="text">{article.description}</p>
+        {/* {(!article.src) ? <a href={article.src} rel="noopener noreferrer">Источник</a> : null} */}
         {this.openText()}
         <button onClick={toggleOpen} className="button">
           {(!isOpen) ? 'читать целиком' : 'закрыть'}

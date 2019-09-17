@@ -19,6 +19,14 @@ function Building() {
           </NavLink>
         </li>
       </ul>
+      <h4>2019</h4>
+      <ul>
+      <li className="photo-list">
+          <NavLink to={'/2019/building/bells'}>
+            {links.bells}
+          </NavLink>
+        </li>
+      </ul>
     </section>
   );
 }

@@ -8,7 +8,7 @@
   "schedule": {
     "title": "Расписание богослужений",
     "note": "В расписании возможны изменения",
-    "updated": "Обновлено: 09.09.2019"
+    "updated": "Обновлено: 16.09.2019"
   },
   "aside": {
     "library": {
@@ -19,6 +19,16 @@
       "invite": {
         "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/invite.png",
         "alt": "Приглашение строить храм"
+      },
+      "mleko": {
+        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/mleko-3.jpg",
+        "alt": "Икона Божией Матери \"Млекопитательница\"",
+        "title": "Икона Божией Матери \"Млекопитательница\""
+      },
+      "head": {
+        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/kuzma.jpg",
+        "alt": "Настоятель прихода протоиерей Андрей Кузьма",
+        "title": "Настоятель протоиерей Андрей Кузьма"
       }
     },
     "thanks": {
@@ -77,6 +87,7 @@
     "area": "Расположение",
     "schedule": "Расписание",
     "gallery": "Фотогалерея",
+    "bells": "Освящение колоколов",
     "building": "Стройка",
     "building_1": "Возведение стен",
     "building_2": "Окончание сезона",

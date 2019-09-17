@@ -5,6 +5,30 @@ import { aside } from '../../data/about';
 function Aside() {
   return (
     <aside>
+      <Fragment>
+        <figure>
+          <img src={aside.images.mleko.src} alt={aside.images.mleko.alt}/>
+          <figcaption>{aside.images.mleko.title}</figcaption>
+        </figure>
+      </Fragment>
+      <Fragment>
+        <figure>
+          <img src={aside.images.head.src} alt={aside.images.head.alt}/>
+          <figcaption>{aside.images.head.title}</figcaption>
+        </figure>
+      </Fragment>
+      <Fragment>
+        <figure>
+          <img src={aside.bells.img.src} alt={aside.bells.img.alt}/>
+          <figcaption>{aside.bells.title}</figcaption>
+        </figure>
+      </Fragment>
+      <Fragment>
+        <figure>
+          <img src={aside.capsule.img.src} alt={aside.capsule.img.alt}/>
+          <figcaption>{aside.capsule.title}</figcaption>
+        </figure>
+      </Fragment>
       <article>
         <img src={aside.images.invite.src}
              alt={aside.images.invite.alt}/>
@@ -18,18 +42,6 @@ function Aside() {
         <h4>{aside.library.title}</h4>
         <span>{aside.library.text}</span>
       </article>
-      <Fragment>
-        <figure>
-          <img src={aside.capsule.img.src} alt={aside.capsule.img.alt}/>
-          <figcaption>{aside.capsule.title}</figcaption>
-        </figure>
-      </Fragment>
-      <Fragment>
-        <figure>
-          <img src={aside.bells.img.src} alt={aside.bells.img.alt}/>
-          <figcaption>{aside.bells.title}</figcaption>
-        </figure>
-      </Fragment>
     </aside>
   );
 }

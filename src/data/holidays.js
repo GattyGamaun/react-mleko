@@ -1,4 +1,4 @@
-export const christmas2018 = [
+ export const christmas2018 = [
   {
     src: `http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/photo/2018/christmas/christmas-1.jpg`,
     width: 19,
