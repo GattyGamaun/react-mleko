@@ -16,7 +16,6 @@ class Article extends Component {
 
   render() {
     const { article, isOpen, toggleOpen } = this.props;
-    console.log(this.props);
     return (
       <article>
         <h3>{article.title}</h3>

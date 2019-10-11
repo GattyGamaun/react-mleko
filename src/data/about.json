@@ -8,7 +8,7 @@
   "schedule": {
     "title": "Расписание богослужений",
     "note": "В расписании возможны изменения",
-    "updated": "Обновлено: 16.09.2019"
+    "updated": "Обновлено: 07.10.2019"
   },
   "aside": {
     "library": {
@@ -116,7 +116,8 @@
   "buildings": {
     "youtube": {
       "link1": "https://www.youtube.com/embed/eQItQ_9e4eg",
-      "link2": "https://www.youtube.com/embed/Vxn5sXXzzrM"
+      "link2": "https://www.youtube.com/embed/Vxn5sXXzzrM",
+      "link3": "https://www.youtube.com/embed/LW_Zc9G2Tqo"
     }
   }
 }

@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './layout/main';
-import Contacts from './layout/contacts/Contacts';
+import Contacts from './layout/contacts';
 import Photo from './layout/photo';
 import Building from './layout/building';
 import { getChristmas, getThrone, getTrinity } from './components/photoGrid';

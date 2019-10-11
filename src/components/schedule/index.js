@@ -4,7 +4,7 @@ import {schedule} from '../../data/about';
 
 class Schedule extends Component {
   state = {
-    imageUrl: 'http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-40.jpg',
+    imageUrl: 'http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-42.jpg',
   };
 
   render() {
