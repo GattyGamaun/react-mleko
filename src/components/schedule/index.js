@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './_style.scss';
-import {schedule} from '../../data/about';
+import { schedule } from '../../data/about';
 
 class Schedule extends Component {
   state = {
-    imageUrl: 'http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-42.jpg',
+    imageUrl: 'http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-46.jpg',
   };
 
   render() {
@@ -15,9 +15,18 @@ class Schedule extends Component {
         </figcaption>
         <img src={this.state.imageUrl} alt="Расписание"/>
         <p>{schedule.note}</p>
-        <p className="updated">{schedule.updated}</p>
+        <p className="updated">{this.getDate()}</p>
       </figure>
     );
+  }
+
+  getDate() {
+    let newDate = new Date();
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+
+    return `Обновлено ${date} ${month} ${year}`;
   }
 }
 
