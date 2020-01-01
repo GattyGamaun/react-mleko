@@ -31,7 +31,8 @@ class Navigation extends Component {
           {Object.entries(mainLinks).map(link => {
             return (<li className="menu-list-item" key={link[0]}>
               <NavLink to={(link[0] === 'schedule') ? '/schedule' : `/${link[0]}`}
-                       activeStyle={{ fontWeight: 'bolder' }}>
+                       activeStyle={{ fontWeight: 'bolder' }}
+                      onClick={this.handleMenuOpen}>
                 {link[1]}
               </NavLink>
             </li>);
