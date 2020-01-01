@@ -30,7 +30,7 @@ class Navigation extends Component {
         <ul className={this.state.isToggleOn ? 'menu-list' : 'menu-list is-active'}>
           {Object.entries(mainLinks).map(link => {
             return (<li className="menu-list-item" key={link[0]}>
-              <NavLink to={(link[0] === 'schedule') ? '/' : `/${link[0]}`}
+              <NavLink to={(link[0] === 'schedule') ? '/schedule' : `/${link[0]}`}
                        activeStyle={{ fontWeight: 'bolder' }}>
                 {link[1]}
               </NavLink>

@@ -16,7 +16,7 @@ ReactDOM.render(
   (<BrowserRouter>
     <App>
       <Switch>
-        <Route path='/' component={Main} exact/>
+        <Route path='/schedule' component={Main} exact/>
         <Route path='/gallery' component={Photo}/>
         <Route path='/contacts' component={Contacts}/>
         <Route path='/building' component={Building}/>
