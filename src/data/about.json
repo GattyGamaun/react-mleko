@@ -16,16 +16,16 @@
     },
     "images": {
       "invite": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/invite.png",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/invite.png",
         "alt": "Приглашение строить храм"
       },
       "mleko": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/mleko-3.jpg",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/mleko-3.jpg",
         "alt": "Икона Божией Матери \"Млекопитательница\"",
         "title": "Икона Божией Матери \"Млекопитательница\""
       },
       "head": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/kuzma.jpg",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/kuzma.jpg",
         "alt": "Настоятель прихода протоиерей Андрей Кузьма",
         "title": "Настоятель протоиерей Андрей Кузьма"
       }
@@ -34,21 +34,21 @@
       "title": "Благодарим принимающих участие в возведении храма",
       "text": "Юлия, Игорь, Ирина, Андрей, Николай, Иван, Андрей, Анатолий, Александра, Александра, Леонид, Артем, Елизавета, Ксения, Вероника, Ирина, Сергей, Наталья, Алла, Валентина, Людмила, Светлана, Анатолий, Дима, Аня, Саша, Андрей, Маша, Владимир, Владимир, Тамара, Наташа, Елена, Анна, Рудик",
       "img": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head.jpg",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head.jpg",
         "alt": "Изображение строящих храм"
       }
     },
     "capsule": {
       "title": "Поздравление митр. Павла после закладки капсулы",
       "img": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head_2.jpg",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/head_2.jpg",
         "alt": "Встреча митрополита Павла"
       }
     },
     "bells": {
       "title": "Освящение колоколов митр. Павлом",
       "img": {
-        "src": "http://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/bells.jpg",
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/bells.jpg",
         "alt": "Освящение колоколов митрополитом Павлом"
       }
     }
@@ -79,7 +79,7 @@
       "episcopate": "Минская епархия"
     },
     "developer": {
-      "name": "Разработал сайт Сергей Кондратюк 2017-2019",
+      "name": "Разработал сайт Сергей Кондратюк 2017-2020",
       "href": "https://www.linkedin.com/in/sergey-kondratiuk-570a64116/"
     }
   },
