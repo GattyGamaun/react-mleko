@@ -37,7 +37,7 @@ function Footer() {
           <ul className="foot-links">
             {Object.entries(mainLinks).map(link => {
               return (<li className="info" key={link[0]}>
-                <NavLink to={(link[0] === 'schedule') ? '/schedule' : `/${link[0]}`}
+                <NavLink to={(link[0] === 'schedule') ? '/' : `/${link[0]}`}
                          activeStyle={{ fontWeight: 'bolder' }}>
                   {link[1]}
                 </NavLink>

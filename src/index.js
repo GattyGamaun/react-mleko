@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import Main from './layout/main';
 import Contacts from './layout/contacts';
@@ -16,7 +16,7 @@ ReactDOM.render(
   (<BrowserRouter>
     <App>
       <Switch>
-        <Route path='/schedule' component={Main} exact/>
+        <Route path='/' component={Main} exact/>
         <Route path='/gallery' component={Photo}/>
         <Route path='/contacts' component={Contacts}/>
         <Route path='/building' component={Building}/>
