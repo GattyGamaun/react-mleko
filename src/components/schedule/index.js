@@ -26,7 +26,7 @@ class Schedule extends Component {
     let month = newDate.getMonth() + 1;
     let year = newDate.getFullYear();
 
-    return `Обновлено ${date} ${month} ${year}`;
+    return `Дата ${date} ${month} ${year}`;
   }
 }
 
