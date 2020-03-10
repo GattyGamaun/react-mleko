@@ -1,0 +1,21 @@
+@import '../../layout/common/sass/_variables';
+
+.back-to-top {
+  margin-bottom: 10px;
+  text-align: right;
+
+  button {
+    width: 90px;
+    height: 50px;
+    color: $white;
+    background: $button-background;
+    border: none;
+    font-size: $extra-small;
+    text-transform: uppercase;
+
+    &:focus,
+    &:hover {
+      background: $header-background;
+    }
+  }
+}

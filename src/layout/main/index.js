@@ -3,6 +3,7 @@ import MainImg from '../../components/main-img';
 import { articles } from '../../data/data';
 import ListOfArticles from '../../components/articles';
 import Schedule from '../../components/schedule';
+import BackToTop from '../../components/backToTop';
 import Aside from '../aside';
 import './_style.scss';
 
@@ -14,6 +15,7 @@ function Main() {
         <section className='main'>
           <Schedule/>
           <ListOfArticles articles={articles}/>
+          <BackToTop/>
         </section>
         <Aside/>
       </div>
