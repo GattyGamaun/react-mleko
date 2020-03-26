@@ -97,6 +97,7 @@
     "christmas": "Рождество Христово",
     "trinity": "День Святой Троицы",
     "throne": "Престольный праздник",
+    "different": "Разное",
     "fb": {
       "title": "Facebook",
       "href": "https://www.facebook.com/Хроники-Крошечного-Храма-1661296960861607/?fref=ts"
@@ -116,7 +117,8 @@
     "youtube": {
       "link1": "https://www.youtube.com/embed/eQItQ_9e4eg",
       "link2": "https://www.youtube.com/embed/Vxn5sXXzzrM",
-      "link3": "https://www.youtube.com/embed/LW_Zc9G2Tqo"
+      "link3": "https://www.youtube.com/embed/LW_Zc9G2Tqo",
+      "link4": "https://www.youtube.com/embed/ztn6z9w255c"
     }
   }
 }
