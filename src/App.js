@@ -7,11 +7,9 @@ import Footer from './layout/footer';
 
 const App = ({ children }) => (
   <Fragment>
-    <Header/>
-    <section className='main-content'>
-      {children}
-    </section>
-    <Footer/>
+    <Header />
+    <main className="main-content">{children}</main>
+    <Footer />
   </Fragment>
 );
 

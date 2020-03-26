@@ -5,7 +5,7 @@ import VideoFrame from '../../components/video';
 
 function Building() {
   return (
-    <section>
+    <React.Fragment>
       <VideoFrame />
       <section className="photo">
         <h4>2017</h4>
@@ -23,8 +23,14 @@ function Building() {
             <NavLink to={'/2019/building/bells'}>{links.bells}</NavLink>
           </li>
         </ul>
+        <h4>2020</h4>
+        <ul>
+          <li className="photo-list">
+            <NavLink to={'/2020/building/different'}>{links.different}</NavLink>
+          </li>
+        </ul>
       </section>
-    </section>
+    </React.Fragment>
   );
 }
 

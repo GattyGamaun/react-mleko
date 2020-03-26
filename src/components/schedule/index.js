@@ -4,7 +4,7 @@ import { schedule } from '../../data/about';
 
 class Schedule extends Component {
   state = {
-    imageUrl: 'https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-55.jpg',
+    imageUrl: 'https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-68.jpg',
   };
 
   render() {
@@ -13,7 +13,7 @@ class Schedule extends Component {
         <figcaption>
           <h3>{schedule.title}</h3>
         </figcaption>
-        <img src={this.state.imageUrl} alt="Расписание"/>
+        <img src={this.state.imageUrl} alt="Расписание" />
         <p>{schedule.note}</p>
         <p className="updated">{this.getDate()}</p>
       </figure>
