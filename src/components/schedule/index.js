@@ -3,17 +3,13 @@ import './_style.scss';
 import { schedule } from '../../data/about';
 
 class Schedule extends Component {
-  state = {
-    imageUrl: 'https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule-68.jpg',
-  };
-
   render() {
     return (
       <figure>
         <figcaption>
           <h3>{schedule.title}</h3>
         </figcaption>
-        <img src={this.state.imageUrl} alt="Расписание" />
+        <img src={schedule.url} alt="Расписание" />
         <p>{schedule.note}</p>
         <p className="updated">{this.getDate()}</p>
       </figure>
@@ -26,7 +22,7 @@ class Schedule extends Component {
     let month = newDate.getMonth() + 1;
     let year = newDate.getFullYear();
 
-    return `Дата ${date} ${month} ${year}`;
+    return `Сегодня ${date} ${month} ${year}`;
   }
 }
 

@@ -10,16 +10,13 @@ function Footer() {
         <div className="foot-section contacts">
           <h5>{links.contacts}</h5>
           <address className="info">
-            <a href={contacts.address.hrefs[0]}>
-              {contacts.address.phones[0]}</a>
+            <a href={contacts.address.hrefs[0]}>{contacts.address.phones[0]}</a>
           </address>
           <address className="info">
-            <a href={contacts.address.hrefs[1]}>
-              {contacts.address.phones[1]}</a>
+            <a href={contacts.address.hrefs[1]}>{contacts.address.phones[1]}</a>
           </address>
           <address className="info">
-            <a href={contacts.address.mail.mailto}>
-              {contacts.address.mail.email}</a>
+            <a href={contacts.address.mail.mailto}>{contacts.address.mail.email}</a>
           </address>
           <address className="info">{contacts.address.region}</address>
           <address className="info">{contacts.address.street}</address>
@@ -36,36 +33,43 @@ function Footer() {
           <h5>{links.title}</h5>
           <ul className="foot-links">
             {Object.entries(mainLinks).map(link => {
-              return (<li className="info" key={link[0]}>
-                <NavLink to={(link[0] === 'schedule') ? '/' : `/${link[0]}`}
-                         activeStyle={{ fontWeight: 'bolder' }}>
-                  {link[1]}
-                </NavLink>
-              </li>);
+              return (
+                <li className="info" key={link[0]}>
+                  <NavLink to={link[0] === 'schedule' ? '/' : `/${link[0]}`} activeStyle={{ fontWeight: 'bolder' }}>
+                    {link[1]}
+                  </NavLink>
+                </li>
+              );
             })}
             <li>
-              <a href={links.fb.href}
-                 className="info"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                {links.fb.title}
+              <a href={links.ya.href} className="info" target="_blank" rel="noopener noreferrer">
+                {links.ya.title}
               </a>
             </li>
             <li>
-              <a href={links.insta.href}
-                 className="info"
-                 target="_blank"
-                 rel="noopener noreferrer">
+              <a href={links.mapsme.href} className="info" target="_blank" rel="noopener noreferrer">
+                {links.mapsme.title}
+              </a>
+            </li>
+            <li>
+              <a href={links.googlemap.href} className="info" target="_blank" rel="noopener noreferrer">
+                {links.googlemap.title}
+              </a>
+            </li>
+            <li>
+              <a href={links.insta.href} className="info" target="_blank" rel="noopener noreferrer">
                 {links.insta.title}
+              </a>
+            </li>
+            <li>
+              <a href={links.fb.href} className="info" target="_blank" rel="noopener noreferrer">
+                {links.fb.title}
               </a>
             </li>
           </ul>
         </div>
         <div className="copyright">
-          <a href={contacts.developer.href}
-             className="info"
-             target="_blank"
-             rel="noopener noreferrer">
+          <a href={contacts.developer.href} className="info" target="_blank" rel="noopener noreferrer">
             {contacts.developer.name} &copy;
           </a>
         </div>

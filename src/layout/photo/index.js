@@ -39,6 +39,9 @@ function Photo() {
           <li className="photo-list">
             <NavLink to={'/2020/different'}>{links.different}</NavLink>
           </li>
+          <li className="photo-list">
+            <NavLink to={'/2020/willow'}>{links.willow2020}</NavLink>
+          </li>
         </ul>
       </section>
     </React.Fragment>

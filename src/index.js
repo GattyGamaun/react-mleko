@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './layout/main';
@@ -18,6 +18,7 @@ import {
 } from './components/photoGrid';
 import { getBuildings1, getBuildings2, getBells, getBuilding_2020 } from './components/bulding';
 import NotFound from './components/notFound';
+import { getWillow_2020 } from './components/photoGrid/index';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -37,6 +38,7 @@ ReactDOM.render(
         <Route path="/2018/different" component={getDifferent_2018} />
         <Route path="/2019/different" component={getDifferent_2019} />
         <Route path="/2020/different" component={getDifferent_2020} />
+        <Route path="/2020/willow" component={getWillow_2020} />
         <Route path="*" component={NotFound} />
       </Switch>
     </App>
