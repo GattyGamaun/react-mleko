@@ -1,9 +1,8 @@
-@import '../common/sass/variables';
-@import '../common/sass/media-query';
+@import '../../sass/variables';
+@import '../../sass/media-query';
 
 .wrapper {
   display: flex;
-
 
   @include media-query('md') {
     flex-direction: column;

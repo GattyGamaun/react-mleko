@@ -1,24 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
 import './index.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './layout/main';
 import Contacts from './layout/contacts';
 import Photo from './layout/photo';
 import Building from './layout/building';
-import {
-  getChristmas,
-  getThrone,
-  getTrinity,
-  getDifferent_2018,
-  getDifferent_2019,
-  getDifferent_2020,
-} from './components/photoGrid';
-import { getBuildings1, getBuildings2, getBells, getBuilding_2020 } from './components/bulding';
+import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
-import { getWillow_2020 } from './components/photoGrid/index';
+
+import { buildings_2017_1, buildings_2017_2, bells, buildings_2020 } from './data/buildings';
+import { christmas2018, throne2018, trinity2018, willow2020 } from './data/holidays';
+import { different_2018, different_2019, different_2020 } from './data/different';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -28,20 +23,42 @@ ReactDOM.render(
         <Route path="/gallery" component={Photo} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/building" component={Building} />
-        <Route path="/2017/building/1" component={getBuildings1} />
-        <Route path="/2017/building/2" component={getBuildings2} />
-        <Route path="/2019/building/bells" component={getBells} />
-        <Route path="/2020/building/different" component={getBuilding_2020} />
-        <Route path="/2018/christmas" component={getChristmas} />
-        <Route path="/2018/throne" component={getThrone} />
-        <Route path="/2018/trinity" component={getTrinity} />
-        <Route path="/2018/different" component={getDifferent_2018} />
-        <Route path="/2019/different" component={getDifferent_2019} />
-        <Route path="/2020/different" component={getDifferent_2020} />
-        <Route path="/2020/willow" component={getWillow_2020} />
+        <Route path="/2017/building/1">
+          <GetPhotos photos={buildings_2017_1} />
+        </Route>
+        <Route path="/2017/building/2">
+          <GetPhotos photos={buildings_2017_2} />
+        </Route>
+        <Route path="/2019/building/bells">
+          <GetPhotos photos={bells} />
+        </Route>
+        <Route path="/2020/building/different">
+          <GetPhotos photos={buildings_2020} />
+        </Route>
+        <Route path="/2018/christmas">
+          <GetPhotos photos={christmas2018} />
+        </Route>
+        <Route path="/2018/throne">
+          <GetPhotos photos={throne2018} />
+        </Route>
+        <Route path="/2018/trinity">
+          <GetPhotos photos={trinity2018} />
+        </Route>
+        <Route path="/2018/different">
+          <GetPhotos photos={different_2018} />
+        </Route>
+        <Route path="/2019/different">
+          <GetPhotos photos={different_2019} />
+        </Route>
+        <Route path="/2020/different">
+          <GetPhotos photos={different_2020} />
+        </Route>
+        <Route path="/2020/willow">
+          <GetPhotos photos={willow2020} />
+        </Route>
         <Route path="*" component={NotFound} />
       </Switch>
     </App>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

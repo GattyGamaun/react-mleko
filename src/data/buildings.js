@@ -1,6 +1,6 @@
 const scheme = 'https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais';
 
-export const buildings_1 = [
+export const buildings_2017_1 = [
   {
     src: `${scheme}/assets/photo/2017/buildings/buildings1.jpg`,
     width: 12,
@@ -282,7 +282,7 @@ export const buildings_1 = [
     height: 4,
   },
 ];
-export const buildings_2 = [
+export const buildings_2017_2 = [
   {
     src: `${scheme}/assets/photo/2017/buildings_2/land_1.jpg`,
     width: 19,
@@ -791,7 +791,6 @@ export const bells = [
     height: 20,
   },
 ];
-
 export const buildings_2020 = [
   {
     src: `${scheme}/assets/photo/2020/different/different-2020-5.jpg`,

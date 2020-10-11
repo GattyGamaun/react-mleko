@@ -1,8 +1,7 @@
-@import "../common/sass/variables";
-@import '../common/sass/media-query';
+@import '../../sass/variables';
+@import '../../sass/media-query';
 
 .map {
-
   width: $main-width;
   height: 100vh;
 
