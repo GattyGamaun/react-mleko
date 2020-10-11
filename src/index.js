@@ -56,7 +56,7 @@ ReactDOM.render(
         <Route path="/2020/willow">
           <GetPhotos photos={willow2020} />
         </Route>
-        <Route path="*" component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
     </App>
   </BrowserRouter>,
