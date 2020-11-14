@@ -29,10 +29,10 @@ function Aside() {
           <figcaption>{aside.capsule.title}</figcaption>
         </figure>
       </Fragment>
-      <article>
-        <img src={aside.images.invite.src}
-             alt={aside.images.invite.alt}/>
-      </article>
+      {/*<article>*/}
+      {/*  <img src={aside.images.invite.src}*/}
+      {/*       alt={aside.images.invite.alt}/>*/}
+      {/*</article>*/}
       <article>
         <h4>{aside.thanks.title}</h4>
         <span className='thanks'>{aside.thanks.text}</span>
@@ -41,6 +41,10 @@ function Aside() {
       <article>
         <h4>{aside.library.title}</h4>
         <span>{aside.library.text}</span>
+      </article>
+      <article >
+        <h4>Фильм об иконе Млекопитательница</h4>
+        <iframe title="Млекопитательница" src='https://www.youtube.com/embed/S2sBrj5anqc' />
       </article>
     </aside>
   );
