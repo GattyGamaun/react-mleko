@@ -485,7 +485,7 @@ export const willow2020 = [
     height: 34,
   },
   {
-    src: `${scheme}/assets/photo/2020/verba/vverba9.jpg`,
+    src: `${scheme}/assets/photo/2020/verba/verba9.jpg`,
     width: 34,
     height: 23,
   },
@@ -504,4 +504,58 @@ export const willow2020 = [
     width: 34,
     height: 23,
   },
+];
+
+export const easter2020 = [
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8822.jpg`,
+    width: 34,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8825.jpg`,
+    width: 32,
+    height: 21,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8828.jpg`,
+    width: 34,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8834.jpg`,
+    width: 31,
+    height: 20,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8836.jpg`,
+    width: 23,
+    height: 34,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8841.jpg`,
+    width: 31,
+    height: 20,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8843.jpg`,
+    width: 34,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8845.jpg`,
+    width: 34,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8850.jpg`,
+    width: 23,
+    height: 34,
+  },
+  {
+    src: `${scheme}/assets/photo/2020/easter2020/easter2020_8852.jpg`,
+    width: 32,
+    height: 21,
+  },
+
 ];

@@ -40,7 +40,10 @@ function Photo() {
             <NavLink to={'/2020/different'}>{links.different}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2020/willow'}>{links.willow2020}</NavLink>
+            <NavLink to={'/2020/willow'}>{links.willow}</NavLink>
+          </li>
+          <li className="photo-list">
+            <NavLink to={'/2020/easter'}>{links.easter}</NavLink>
           </li>
         </ul>
       </section>
