@@ -557,5 +557,47 @@ export const easter2020 = [
     width: 32,
     height: 21,
   },
+];
 
+export const throne2021 = [
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(1).jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(2).jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(3).jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(4).jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(5).jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(6).jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(7).jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/prestol_2021/prestol_2021_(8).jpg`,
+    width: 16,
+    height: 12,
+  },
 ];

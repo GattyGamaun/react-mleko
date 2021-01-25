@@ -47,6 +47,14 @@ function Photo() {
           </li>
         </ul>
       </section>
+      <section className="photo">
+        <h4>2021</h4>
+        <ul>
+          <li className="photo-list">
+            <NavLink to={'/2021/throne'}>{links.throne}</NavLink>
+          </li>
+        </ul>
+      </section>
     </React.Fragment>
   );
 }
