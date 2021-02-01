@@ -13,7 +13,7 @@ import NotFound from './components/notFound';
 
 import { buildings_2017_1, buildings_2017_2, bells, buildings_2020 } from './data/buildings';
 import { christmas2018, throne2018, trinity2018, willow2020, easter2020, throne2021 } from './data/holidays';
-import { different_2018, different_2019, different_2020 } from './data/different';
+import { different_2018, different_2019, different_2020, winter2021 } from './data/different';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -62,9 +62,12 @@ ReactDOM.render(
         <Route path="/2021/throne">
           <GetPhotos photos={throne2021} />
         </Route>
+        <Route path="/2021/winter">
+          <GetPhotos photos={winter2021} />
+        </Route>
         <Route component={NotFound} />
       </Switch>
     </App>
   </BrowserRouter>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );

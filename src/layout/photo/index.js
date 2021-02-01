@@ -53,6 +53,9 @@ function Photo() {
           <li className="photo-list">
             <NavLink to={'/2021/throne'}>{links.throne}</NavLink>
           </li>
+          <li className="photo-list">
+            <NavLink to={'/2021/winter'}>{links.different}</NavLink>
+          </li>
         </ul>
       </section>
     </React.Fragment>
