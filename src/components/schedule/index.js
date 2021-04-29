@@ -9,7 +9,7 @@ class Schedule extends Component {
         <figcaption>
           <h3>{schedule.title}</h3>
         </figcaption>
-        <img src={schedule.url} alt="Расписание" />
+        <img src={`${schedule.url}?${this.getDay()}`} alt="Расписание" />
         <p>{schedule.note}</p>
         <p className="updated">{this.getDate()}</p>
       </figure>
@@ -23,6 +23,12 @@ class Schedule extends Component {
     let year = newDate.getFullYear();
 
     return `Сегодня ${date} ${month} ${year}`;
+  }
+
+  getDay() {
+    let newDate = new Date();
+
+    return newDate.getDate();
   }
 }
 
