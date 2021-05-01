@@ -47,11 +47,6 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href={links.mapsme.href} className="info" target="_blank" rel="noopener noreferrer">
-                {links.mapsme.title}
-              </a>
-            </li>
-            <li>
               <a href={links.googlemap.href} className="info" target="_blank" rel="noopener noreferrer">
                 {links.googlemap.title}
               </a>
