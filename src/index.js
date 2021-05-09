@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
@@ -24,7 +24,7 @@ import {
 import { different_2018, different_2019, different_2020, winter2021 } from './data/different';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App>
       <Switch>
         <Route path='/' component={Main} exact />
@@ -85,6 +85,6 @@ ReactDOM.render(
         <Route component={NotFound} />
       </Switch>
     </App>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'),
 );
