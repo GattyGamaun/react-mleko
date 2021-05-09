@@ -227,6 +227,7 @@ export const christmas2018 = [
     height: 5,
   },
 ];
+
 export const throne2018 = [
   {
     src: `${scheme}/assets/photo/2018/prestol/1.jpg`,
@@ -600,4 +601,227 @@ export const throne2021 = [
     width: 16,
     height: 12,
   },
+];
+
+export const easter2021 = [
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_1.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_2.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_3.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_4.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_5.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_6.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_7.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_8.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_9.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_10.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_11.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_12.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_13.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_14.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_15.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_16.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_17.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_18.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_19.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_20.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_21.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_22.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_23.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_24.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_25.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_26.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_27.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_28.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_29.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_30.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_31.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_32.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_33.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_34.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_35.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_36.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_37.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_38.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_39.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_40.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_41.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_42.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_43.jpg`,
+    width: 40,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/easter/easter_2021_44.jpg`,
+    width: 22,
+    height: 40,
+  }
 ];

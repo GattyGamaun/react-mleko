@@ -106,6 +106,8 @@
     "willow": "Вербное воскресенье",
     "easter": "Пасха",
     "different": "Разное",
+    "komelin": "Kомелин",
+    "winterChurch": "Храм зимой",
     "fb": {
       "title": "Facebook",
       "href": "https://www.facebook.com/Хроники-Крошечного-Храма-1661296960861607/?fref=ts"
@@ -126,7 +128,7 @@
   "mainLinks": {
     "schedule": "Расписание",
     "gallery": "Фотогалерея",
-    "building": "Стройка",
+    "building": "Возведение храма",
     "contacts": "Расположение"
   },
   "buildings": {

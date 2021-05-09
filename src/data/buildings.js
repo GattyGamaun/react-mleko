@@ -828,3 +828,199 @@ export const buildings_2020 = [
     height: 15,
   },
 ];
+
+export const komelin = [
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_1.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_2.jpg`,
+    width: 13,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_3.jpg`,
+    width: 16,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_4.jpg`,
+    width: 10,
+    height: 14,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_5.jpg`,
+    width: 78,
+    height: 35,
+  },
+];
+
+export const church2021 = [
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_6.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_7.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_8.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_9.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_10.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_11.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_12.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_13.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_14.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_15.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_16.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_17.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_18.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_19.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_20.jpg`,
+    width: 60,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_21.jpg`,
+    width: 60,
+    height: 20,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_22.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_23.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_24.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_25.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_26.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_27.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_28.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_29.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_30.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_31.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_32.jpg`,
+    width: 62,
+    height: 23,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_33.jpg`,
+    width: 87,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_34.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_35.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_36.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_37.jpg`,
+    width: 40,
+    height: 30,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/church/church_winter_2021_38.jpg`,
+    width: 40,
+    height: 30,
+  }
+]
