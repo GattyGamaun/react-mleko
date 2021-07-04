@@ -10,6 +10,9 @@ function Photo() {
         <h4>2021</h4>
         <ul>
           <li className="photo-list">
+            <NavLink to={'/2021/trinity'}>{links.trinity}</NavLink>
+          </li>
+          <li className="photo-list">
             <NavLink to={'/2021/winter'}>{links.different}</NavLink>
           </li>
           <li className="photo-list">

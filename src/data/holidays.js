@@ -825,3 +825,222 @@ export const easter2021 = [
     height: 40,
   }
 ];
+
+export const trinity2021 = [
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_1.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_2.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_3.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_4.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_5.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_6.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_7.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_8.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_9.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_10.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_11.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_12.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_13.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_14.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_15.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_16.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_17.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_18.jpg`,
+    width: 40,
+    height: 22,
+  },{
+    src: `${scheme}/assets/photo/2021/trinity/trinity_19.jpg`,
+    width: 40,
+    height: 22,
+  },{
+    src: `${scheme}/assets/photo/2021/trinity/trinity_20.jpg`,
+    width: 40,
+    height: 22,
+  },{
+    src: `${scheme}/assets/photo/2021/trinity/trinity_21.jpg`,
+    width: 21,
+    height: 37,
+  },{
+    src: `${scheme}/assets/photo/2021/trinity/trinity_22.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_23.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_24.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_25.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_26.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_27.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_28.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_29.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_30.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_31.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_32.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_33.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_34.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_35.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_36.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_37.jpg`,
+    width: 21,
+    height: 37,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_38.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_39.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_40.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_41.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_42.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_43.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2021/trinity/trinity_44.jpg`,
+    width: 40,
+    height: 22,
+  }
+];
