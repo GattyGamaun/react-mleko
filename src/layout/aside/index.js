@@ -11,10 +11,6 @@ function Aside() {
           <figcaption>{aside.images.mleko.title}</figcaption>
         </figure>
       </Fragment>
-      <article >
-        <h4>Фильм об иконе Млекопитательница</h4>
-        <iframe title="Млекопитательница" src='https://www.youtube.com/embed/S2sBrj5anqc' />
-      </article>
       <Fragment>
         <figure>
           <img src={aside.images.head.src} alt={aside.images.head.alt}/>
