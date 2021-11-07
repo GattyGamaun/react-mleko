@@ -6,6 +6,7 @@ figure {
   border: 1px solid #c7c7c7;
   margin: $xl 0;
   padding: 20px;
+  text-align: center;
 
   @include media-query('xl') {
     padding: 20px 15px;
@@ -19,7 +20,7 @@ figure {
 
   img {
     max-width: 100%;
-    margin-bottom: 10px;
+    margin: 10px;
   }
 }
 
