@@ -5,10 +5,11 @@ aside {
   font-family: 'Amatic SC', cursive;
   flex-basis: 30%;
   flex-shrink: 0;
-  margin-left: $xl;
+  margin: 0 $xl;
+
 
   @include media-query('md') {
-    margin-left: 0;
+    margin: 0;
   }
 
   span {

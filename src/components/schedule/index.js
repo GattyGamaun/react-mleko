@@ -17,18 +17,14 @@ class Schedule extends Component {
   }
 
   getDate() {
-    let newDate = new Date();
-    let date = newDate.getDate();
-    let month = newDate.getMonth() + 1;
-    let year = newDate.getFullYear();
+    const date = new Date();
 
-    return `Сегодня ${date} ${month} ${year}`;
+    return `Сегодня ${date.getDate()} ${date.getMonth() + 1} ${date.getFullYear()}`;
   }
 
   getDay() {
-    let newDate = new Date();
-
-    return newDate.getDate();
+    const date = new Date();
+    return date.getDate();
   }
 }
 
