@@ -21,7 +21,7 @@ h5 {
 
 .foot-wrap {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 279px 2fr 1fr;
   grid-gap: 2em 1em;
 
   @include media-query('lg') {
@@ -38,7 +38,7 @@ h5 {
   font-size: 16px;
 
   &.contacts {
-    align-items: end;
+    align-items: start;
 
     @include media-query('lg') {
       align-items: center;

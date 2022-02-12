@@ -3,6 +3,8 @@ import './_style.scss';
 import { schedule } from '../../data/about';
 
 class Schedule extends Component {
+  date = new Date();
+
   render() {
     return (
       <figure>
@@ -17,14 +19,11 @@ class Schedule extends Component {
   }
 
   getDate() {
-    const date = new Date();
-
-    return `Сегодня ${date.getDate()} ${date.getMonth() + 1} ${date.getFullYear()}`;
+    return `Сегодня ${this.date.getDate()} ${this.date.getMonth() + 1} ${this.date.getFullYear()}`;
   }
 
   getDay() {
-    const date = new Date();
-    return date.getDate();
+    return this.getDate();
   }
 }
 
