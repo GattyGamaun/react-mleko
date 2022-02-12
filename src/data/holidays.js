@@ -1044,3 +1044,86 @@ export const trinity2021 = [
     height: 22,
   }
 ];
+
+export const throne2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-01.jpg`,
+    width: 11,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-02.jpg`,
+    width: 10,
+    height: 14,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-03.jpg`,
+    width: 14,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-04.jpg`,
+    width: 10,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-05.jpg`,
+    width: 10,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-06.jpg`,
+    width: 14,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-07.jpg`,
+    width: 14,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-08.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-09.jpg`,
+    width: 15,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-10.jpg`,
+    width: 11,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-11.jpg`,
+    width: 9,
+    height: 15,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-12.jpg`,
+    width: 15,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-13.jpg`,
+    width: 14,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-14.jpg`,
+    width: 11,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-15.jpg`,
+    width: 9,
+    height: 14,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/prestol/prestol_2022-16.jpg`,
+    width: 14,
+    height: 10,
+  }
+]
