@@ -22,6 +22,7 @@ function Footer() {
           <address className="info">{contacts.address.street}</address>
           <address className="info">{contacts.address.bank.account}</address>
           <address className="info">{contacts.address.bank.code}</address>
+          <address className="info">{contacts.address.bank.unp}</address>
         </div>
         <div className="foot-section center">
           <h5 className="foot-title">{contacts.name.title}</h5>

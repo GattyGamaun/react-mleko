@@ -12,6 +12,15 @@ function Photo() {
           <li className="photo-list">
             <NavLink to={'/2022/throne'}>{links.throne}</NavLink>
           </li>
+          <li className="photo-list">
+            <NavLink to={'/2022/easter'}>{links.easter}</NavLink>
+          </li>
+          <li className="photo-list">
+            <NavLink to={'/2022/trinity'}>{links.trinity}</NavLink>
+          </li>
+          <li className="photo-list">
+            <NavLink to={'/2022/pray'}>Литургия в новом храме</NavLink>
+          </li>
         </ul>
       </section>
       <section className="photo">

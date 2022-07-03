@@ -75,10 +75,8 @@
     "react-hot-loader": "^4.12.10"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "defaults",
+    "not ie 11"
   ],
   "jest": {
     "collectCoverageFrom": [

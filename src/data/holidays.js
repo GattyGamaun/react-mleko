@@ -1126,4 +1126,248 @@ export const throne2022 = [
     width: 14,
     height: 10,
   }
-]
+];
+
+export const easter2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-1.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-2.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-3.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-4.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-5.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-6.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-7.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-8.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-9.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-10.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-11.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-12.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-13.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-14.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-15.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-16.jpg`,
+    width: 26,
+    height: 46,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-17.jpg`,
+    width: 46,
+    height: 26,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/easter/easter_2022-18.jpg`,
+    width: 46,
+    height: 26,
+  },
+];
+
+export const trinity2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-1.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-2.jpg`,
+    width: 20,
+    height: 35,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-3.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-4.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-5.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-6.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-7.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-8.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-9.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-10.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-11.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-12.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-13.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-14.jpg`,
+    width: 30,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-15.jpg`,
+    width: 40,
+    height: 22,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-16.jpg`,
+    width: 22,
+    height: 40,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-17.jpg`,
+    width: 22,
+    height: 40,
+  },
+];
+
+export const pray2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-1.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-2.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-3.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-4.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-5.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-6.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-7.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-8.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-9.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-10.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-11.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/pray/pray_2022-12.jpg`,
+    width: 12,
+    height: 16,
+  }
+];

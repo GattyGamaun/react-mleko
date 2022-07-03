@@ -22,6 +22,9 @@ import {
   throne2022,
   easter2021,
   trinity2021,
+  trinity2022,
+  easter2022,
+  pray2022,
 } from './data/holidays';
 import { different_2018, different_2019, different_2020, winter2021 } from './data/different';
 
@@ -89,6 +92,15 @@ ReactDOM.render(
         </Route>
         <Route path='/2022/throne'>
           <GetPhotos photos={throne2022} />
+        </Route>
+        <Route path='/2022/easter'>
+          <GetPhotos photos={easter2022} />
+        </Route>
+        <Route path='/2022/trinity'>
+          <GetPhotos photos={trinity2022} />
+        </Route>
+        <Route path='/2022/pray'>
+          <GetPhotos photos={pray2022} />
         </Route>
         <Route component={NotFound} />
       </Switch>
