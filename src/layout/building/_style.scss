@@ -1,0 +1,11 @@
+@import '../../sass/media-query';
+
+.building {
+    display: flex;
+    gap: 40px;
+
+    @include media-query('md') {
+        flex-direction: column;
+        gap: 0;
+    }
+}

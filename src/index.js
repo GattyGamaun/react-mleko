@@ -11,7 +11,7 @@ import Building from './layout/building';
 import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
 
-import { buildings_2017_1, buildings_2017_2, bells, buildings_2020, komelin, church2021 } from './data/buildings';
+import { buildings_2017_1, buildings_2017_2, bells, buildings_2020, komelin, church2021, church2022 } from './data/buildings';
 import {
   christmas2018,
   throne2018,
@@ -53,6 +53,9 @@ ReactDOM.render(
         </Route>
         <Route path='/2021/building/komelin'>
           <GetPhotos photos={komelin} />
+        </Route>
+        <Route path='/2022/building/inner'>
+          <GetPhotos photos={church2022} />
         </Route>
         <Route path='/2018/christmas'>
           <GetPhotos photos={christmas2018} />

@@ -109,6 +109,7 @@
     "different": "Разное",
     "komelin": "Kомелин",
     "winterChurch": "Храм зимой",
+    "inner": "Интерьер",
     "fb": {
       "title": "Facebook",
       "href": "https://www.facebook.com/Хроники-Крошечного-Храма-1661296960861607/?fref=ts"
@@ -129,7 +130,7 @@
   "mainLinks": {
     "schedule": "Расписание",
     "gallery": "Фотогалерея",
-    "building": "Возведение храма",
+    "building": "Возведение основного храма",
     "contacts": "Расположение"
   },
   "buildings": {

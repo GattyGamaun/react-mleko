@@ -1024,3 +1024,131 @@ export const church2021 = [
     height: 30,
   }
 ]
+
+export const church2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_1.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_2.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_3.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_4.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_5.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_6.jpg`,
+    width: 66,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_7.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_8.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_9.jpg`,
+    width: 128,
+    height: 60,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_10.jpg`,
+    width: 128,
+    height: 60,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_11.jpg`,
+    width: 128,
+    height: 70,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_12.jpg`,
+    width: 128,
+    height: 60,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_13.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_14.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_15.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_16.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_17.jpg`,
+    width: 128,
+    height: 45,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_18.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_19.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_20.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_21.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_22.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_23.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_24.jpg`,
+    width: 128,
+    height: 50,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/building/inner-church-2022_25.jpg`,
+    width: 128,
+    height: 70,
+  }
+]
