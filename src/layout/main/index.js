@@ -1,6 +1,6 @@
 import React from 'react';
 import MainImg from '../../components/main-img';
-import { articles } from '../../data/data';
+import { articles } from '../../data/articles';
 import ListOfArticles from '../../components/articles';
 import Schedule from '../../components/schedule';
 import BackToTop from '../../components/backToTop';

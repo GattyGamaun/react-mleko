@@ -1371,3 +1371,56 @@ export const pray2022 = [
     height: 16,
   }
 ];
+
+export const tabynsk2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-1.jpg`,
+    width: 128,
+    height: 72,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-2.jpg`,
+    width: 96,
+    height: 128,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-3.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-4.jpg`,
+    width: 128,
+    height: 34,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-5.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-6.jpg`,
+    width: 128,
+    height: 76,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-7.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-8.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-9.jpg`,
+    width: 128,
+    height: 96,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/tabynsk/tabynsk-10.jpg`,
+    width: 128,
+    height: 96,
+  }
+]
