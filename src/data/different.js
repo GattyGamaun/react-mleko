@@ -339,3 +339,141 @@ export const winter2021 = [
     height: 12,
   },
 ];
+
+export const winter2022 = [
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-1.jpg`,
+    width: 16,
+    height: 10,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-2.jpg`,
+    width: 16,
+    height: 10,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-3.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-4.jpg`,
+    width: 16,
+    height: 10,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-5.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-6.jpg`,
+    width: 16,
+    height: 9,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-7.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-8.jpg`,
+    width: 16,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-9.jpg`,
+    width: 16,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-10.jpg`,
+    width: 16,
+    height: 11,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-11.jpg`,
+    width: 16,
+    height: 7,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-12.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-13.jpg`,
+    width: 7,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-14.jpg`,
+    width: 9,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-15.jpg`,
+    width: 8,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-16.jpg`,
+    width: 8,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-17.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-18.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-19.jpg`,
+    width: 16,
+    height: 12,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-20.jpg`,
+    width: 16,
+    height: 9,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-21.jpg`,
+    width: 16,
+    height: 10,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-22.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-23.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-24.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-25.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-26.jpg`,
+    width: 12,
+    height: 16,
+  },
+  {
+    src: `${scheme}/assets/photo/2022/winter/winter-22-27.jpg`,
+    width: 12,
+    height: 16,
+  },
+];

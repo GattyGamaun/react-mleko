@@ -36,7 +36,14 @@ import {
   pray2022,
   tabynsk2022,
 } from './data/holidays';
-import { different_2018, different_2019, different_2020, winter2021 } from './data/different';
+import {
+  different_2016,
+  different_2018,
+  different_2019,
+  different_2020,
+  winter2021,
+  winter2022,
+} from './data/different';
 
 ReactDOM.render(
   <HashRouter>
@@ -46,6 +53,9 @@ ReactDOM.render(
         <Route path="/gallery" component={Photo} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/building" component={Building} />
+        <Route path="/2016/different">
+          <GetPhotos photos={different_2016} />
+        </Route>
         <Route path="/2017/building/1">
           <GetPhotos photos={buildings_2017_1} />
         </Route>
@@ -118,6 +128,9 @@ ReactDOM.render(
         <Route path="/2022/tabynsk">
           <GetPhotos photos={tabynsk2022} />
           <HtmlVideoList />
+        </Route>
+        <Route path="/2022/building/winter">
+          <GetPhotos photos={winter2022} />
         </Route>
         <Route component={NotFound} />
       </Switch>

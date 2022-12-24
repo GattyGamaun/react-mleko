@@ -17,6 +17,9 @@ function Building() {
           <h4>2022</h4>
           <ul>
             <li className="photo-list">
+              <NavLink to={'/2022/building/winter'}>{links.winterChurch}</NavLink>
+            </li>
+            <li className="photo-list">
               <NavLink to={'/2022/building/inner'}>{links.inner}</NavLink>
             </li>
           </ul>
