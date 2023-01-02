@@ -7,7 +7,7 @@ import VideoFrame from '../../components/video';
 function Building() {
   return (
     <React.Fragment>
-      <div class="building">
+      <div className="building">
         <section className="photo">
           <ul>
             <li className="photo-list">
