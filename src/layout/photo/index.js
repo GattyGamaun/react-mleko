@@ -7,6 +7,14 @@ function Photo() {
   return (
     <React.Fragment>
       <section className="photo">
+        <h4>2023</h4>
+        <ul>
+          <li className="photo-list">
+            <NavLink to={'/2023/easter'}>{links.easter}</NavLink>
+          </li>
+        </ul>
+      </section>
+      <section className="photo">
         <h4>2022</h4>
         <ul>
           <li className="photo-list">
@@ -82,7 +90,7 @@ function Photo() {
           </li>
         </ul>
       </section>
-      <section>
+      <section className="photo">
         <h4>2016</h4>
         <ul>
           <li className="photo-list">
