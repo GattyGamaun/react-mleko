@@ -3,7 +3,7 @@
 
 footer {
   width: 100%;
-  padding: 40px calc(50% - #{$main-width/2});
+  padding: 40px calc(50% - #{calc($main-width/2)});
   font-family: 'Fira Sans Condensed', sans-serif;
   color: $footer-text;
   background: linear-gradient(rgb(69, 72, 77), rgb(0, 0, 0));

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { links } from '../../data/about';
+import { links } from '../../data/about.json';
 import './_style.scss';
 
 function Photo() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './_style.scss';
 import { NavLink } from 'react-router-dom';
-import { contacts, links, mainLinks } from '../../data/about';
+import { contacts, links, mainLinks } from '../../data/about.json';
 
 function Footer() {
   return (
@@ -36,9 +36,7 @@ function Footer() {
             {Object.entries(mainLinks).map(link => {
               return (
                 <li className="info" key={link[0]}>
-                  <NavLink to={link[0] === 'schedule' ? '/' : `/${link[0]}`} activeStyle={{ fontWeight: 'bolder' }}>
-                    {link[1]}
-                  </NavLink>
+                  <NavLink to={link[0] === 'schedule' ? '/' : `/${link[0]}`}>{link[1]}</NavLink>
                 </li>
               );
             })}

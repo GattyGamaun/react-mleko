@@ -1,5 +1,5 @@
 import React from 'react';
-import { buildings } from '../../data/about';
+import { buildings } from '../../data/about.json';
 
 const VideoFrame = () => {
   return (

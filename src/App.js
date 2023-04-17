@@ -1,4 +1,4 @@
-import { hot } from 'react-hot-loader/root';
+// import { hot } from 'react-hot-loader/root';
 import React, { Fragment } from 'react';
 import './_App.scss';
 import Header from './layout/header';
@@ -12,4 +12,4 @@ const App = ({ children }) => (
   </Fragment>
 );
 
-export default hot(App);
+export default App;

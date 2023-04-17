@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import './_style.scss';
-import { aside } from '../../data/about';
+import { aside } from '../../data/about.json';
 
 function Aside() {
   return (

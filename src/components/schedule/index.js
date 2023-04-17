@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './_style.scss';
-import { schedule } from '../../data/about';
+import { schedule } from '../../data/about.json';
 
 class Schedule extends Component {
   date = new Date();

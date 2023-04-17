@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 10px calc(50% - #{$main-width/2});
+  padding: 10px calc(50% - #{calc($main-width/2)});
   background: $header-background;
   text-align: center;
   width: 100%;
