@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
@@ -47,7 +47,7 @@ import {
 } from './data/different';
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <App>
       <Switch>
         <Route path="/" component={Main} exact />
@@ -139,6 +139,6 @@ ReactDOM.render(
         <Route component={NotFound} />
       </Switch>
     </App>
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );

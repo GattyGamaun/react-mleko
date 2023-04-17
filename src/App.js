@@ -1,4 +1,3 @@
-// import { hot } from 'react-hot-loader/root';
 import React, { Fragment } from 'react';
 import './_App.scss';
 import Header from './layout/header';
