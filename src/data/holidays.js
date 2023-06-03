@@ -1505,4 +1505,47 @@ export const easter2023 = [
     width: 7,
     height: 16,
   },
+  {
+    src: `${scheme}/assets/photo/2023/easter/easter_2023-16.jpg`,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/easter/easter_2023-17.jpg`,
+    width: 40,
+    height: 23,
+  },
+];
+
+export const ringer2023 = [
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0001.png`,
+    width: 160,
+    height: 74,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0002.png`,
+    width: 160,
+    height: 74,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0003.png`,
+    width: 160,
+    height: 74,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0004.png`,
+    width: 160,
+    height: 74,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0005.png`,
+    width: 160,
+    height: 74,
+  },
+  {
+    src: `${scheme}/assets/photo/2023/ringer/ringer_0006.png`,
+    width: 160,
+    height: 74,
+  },
 ];

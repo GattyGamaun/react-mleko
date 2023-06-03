@@ -10,7 +10,7 @@ module.exports = {
   mode: 'development',
   entry: './index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'bundle.[hash].js',
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
@@ -71,7 +71,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.html',
       filename: 'index.html',
-      inject: 'body'
+      inject: 'body',
     }),
     new MiniCssExtractPlugin({
       filename: 'styles.css',

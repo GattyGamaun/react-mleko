@@ -36,6 +36,7 @@ import {
   pray2022,
   tabynsk2022,
   easter2023,
+  ringer2023,
 } from './data/holidays';
 import {
   different_2016,
@@ -135,6 +136,9 @@ ReactDOM.render(
         </Route>
         <Route path="/2023/easter">
           <GetPhotos photos={easter2023} />
+        </Route>
+        <Route path="/2023/ringer">
+          <GetPhotos photos={ringer2023} />
         </Route>
         <Route component={NotFound} />
       </Switch>

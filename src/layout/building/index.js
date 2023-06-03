@@ -14,6 +14,12 @@ function Building() {
               <NavLink to={'/2021/building/komelin'}>{links.komelin}</NavLink>
             </li>
           </ul>
+          <h4>2023</h4>
+          <ul>
+            <li className="photo-list">
+              <NavLink to={'/2023/ringer'}>{links.ringer}</NavLink>
+            </li>
+          </ul>
           <h4>2022</h4>
           <ul>
             <li className="photo-list">
