@@ -1311,6 +1311,11 @@ export const trinity2022 = [
     width: 22,
     height: 40,
   },
+  {
+    src: `${scheme}/assets/photo/2022/trinity/trinity_2022-18.jpg`,
+    width: 16,
+    height: 9,
+  },
 ];
 
 export const pray2022 = [
