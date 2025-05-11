@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 header {
   flex: 0 0 auto;
@@ -15,7 +15,7 @@ header {
   text-align: center;
   width: 100%;
 
-  @include media-query('xl') {
+  @include mq.media-query('xl') {
     flex-direction: column;
     padding: 10px;
   }
@@ -27,14 +27,14 @@ h1 {
   color: #fff;
   cursor: pointer;
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     padding: 5px;
     font-size: 36px;
   }
 
   &::after {
 
-    @include media-query('md') {
+    @include mq.media-query('md') {
       content: "";
       display: block;
       height: 42px;
@@ -50,7 +50,7 @@ h2 {
   font-size: 34px;
   color: #fff;
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     font-size: 24px;
     padding: 5px;
   }

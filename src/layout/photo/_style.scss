@@ -1,5 +1,4 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
 
 .photo {
   margin: 20px auto;

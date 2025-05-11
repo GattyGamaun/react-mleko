@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 aside {
   font-family: 'Amatic SC', cursive;
@@ -8,7 +8,7 @@ aside {
   margin: 0 $xl;
 
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     margin: 0;
   }
 

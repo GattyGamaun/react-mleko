@@ -1,5 +1,6 @@
-@import "reset.css";
-@import "sass/variables";
+@use "reset.css";
+@use "sass/variables" as *;
+
 .App {
   text-align: center;
 }

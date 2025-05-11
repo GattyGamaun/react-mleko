@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './_style.scss';
-import { schedule } from '../../data/about.json';
+import data from '../../data/about.json';
 
 class Schedule extends Component {
   date = new Date();
@@ -9,10 +9,13 @@ class Schedule extends Component {
     return (
       <figure>
         <figcaption>
-          <h3>{schedule.title}</h3>
+          <h3>{data.schedule.title}</h3>
         </figcaption>
-        <img src={`${schedule.url}?${this.getDay()}`} alt="Актуальное расписание в Viber в группе Млекопитательница" />
-        <p>{schedule.note}</p>
+        <img
+          src={`${data.schedule.url}?${this.getDay()}`}
+          alt="Актуальное расписание в Viber в группе Млекопитательница"
+        />
+        <p>{data.schedule.note}</p>
         <p className="updated">{this.getDate()}</p>
       </figure>
     );

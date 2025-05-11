@@ -1,10 +1,10 @@
-@import '../../sass/media-query';
+@use '../../sass/media-query' as mq;
 
 .building {
     display: flex;
     gap: 40px;
 
-    @include media-query('md') {
+    @include mq.media-query('md') {
         flex-direction: column;
         gap: 0;
     }

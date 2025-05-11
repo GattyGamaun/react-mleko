@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 figure {
   background: $white;
@@ -8,11 +8,11 @@ figure {
   padding: 20px;
   text-align: center;
 
-  @include media-query('xl') {
+  @include mq.media-query('xl') {
     padding: 15px;
   }
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     margin: $md 0;
     padding: 10px;
     text-align: center;

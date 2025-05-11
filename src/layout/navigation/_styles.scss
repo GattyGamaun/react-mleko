@@ -1,14 +1,19 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
-@import './button-menu/_sass/hamburgers/hamburgers.scss';
+@use 'sass:color';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 .hamburger {
   position: absolute;
   top: 5px;
   right: 0;
   display: none;
+  font-size: 30px;
+  padding: 10px 12px;
+  color: $white;
+  background: transparent;
+  border: none;
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     display: block;
   }
 }
@@ -20,14 +25,14 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 calc(50% - 560px);
-    background: darken($header-background, 10%);
+    background: color.change($header-background, $lightness: 10%);
 
-    @include media-query('xl') {
+    @include mq.media-query('xl') {
       padding: 0 15px;
     }
 
     &.is-active {
-      @include media-query('md') {
+      @include mq.media-query('md') {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -43,7 +48,7 @@
       }
     }
 
-    @include media-query('md') {
+    @include mq.media-query('md') {
       display: none;
     }
 
@@ -61,7 +66,7 @@
         &:focus {
           border-top: 3px solid $white;
 
-          @include media-query('md') {
+          @include mq.media-query('md') {
             border-top: 3px solid transparent;
           }
         }

@@ -1,21 +1,21 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 .wrapper {
   display: flex;
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     flex-direction: column;
     margin: $md;
   }
 }
 
 .main {
-  @include media-query('xl') {
+  @include mq.media-query('xl') {
     margin-left: $xl;
   }
 
-  @include media-query('md') {
+  @include mq.media-query('md') {
     margin-left: 0;
   }
 }

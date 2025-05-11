@@ -1,5 +1,5 @@
-@import "../../sass/variables";
-@import '../../sass/media-query';
+@use "../../sass/variables" as *;
+@use '../../sass/media-query' as mq;
 
 footer {
   width: 100%;
@@ -9,7 +9,7 @@ footer {
   background: linear-gradient(rgb(69, 72, 77), rgb(0, 0, 0));
   flex: 0 0 auto;
 
-  @include media-query('xl') {
+  @include mq.media-query('xl') {
     padding: 40px 20px;
   }
 }
@@ -24,7 +24,7 @@ h5 {
   grid-template-columns: 279px 2fr 1fr;
   grid-gap: 2em 1em;
 
-  @include media-query('lg') {
+  @include mq.media-query('lg') {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto) 20px;
     grid-column: 1/-1;
@@ -40,7 +40,7 @@ h5 {
   &.contacts {
     align-items: start;
 
-    @include media-query('lg') {
+    @include mq.media-query('lg') {
       align-items: center;
     }
   }
@@ -53,7 +53,7 @@ h5 {
   &.list {
     align-items: flex-end;
 
-    @include media-query('lg') {
+    @include mq.media-query('lg') {
       align-items: center;
     }
   }
@@ -68,7 +68,7 @@ h5 {
     flex-direction: column;
     align-items: flex-end;
 
-    @include media-query('lg') {
+    @include mq.media-query('lg') {
       align-items: center;
     }
   }
@@ -92,7 +92,7 @@ h5 {
   padding: 16px 0;
   cursor: pointer;
 
-  @include media-query('lg') {
+  @include mq.media-query('lg') {
     .info {
       padding: 16px;
     }

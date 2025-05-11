@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { links } from '../../data/about.json';
+import data from '../../data/about.json';
 import './_style.scss';
 
 function Photo() {
@@ -10,7 +10,7 @@ function Photo() {
         <h4>2023</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2023/easter'}>{links.easter}</NavLink>
+            <NavLink to={'/2023/easter'}>{data.links.easter}</NavLink>
           </li>
         </ul>
       </section>
@@ -18,16 +18,16 @@ function Photo() {
         <h4>2022</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2022/tabynsk'}>{links.tabynsk}</NavLink>
+            <NavLink to={'/2022/tabynsk'}>{data.links.tabynsk}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2022/throne'}>{links.throne}</NavLink>
+            <NavLink to={'/2022/throne'}>{data.links.throne}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2022/easter'}>{links.easter}</NavLink>
+            <NavLink to={'/2022/easter'}>{data.links.easter}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2022/trinity'}>{links.trinity}</NavLink>
+            <NavLink to={'/2022/trinity'}>{data.links.trinity}</NavLink>
           </li>
           <li className="photo-list">
             <NavLink to={'/2022/pray'}>Литургия в новом храме</NavLink>
@@ -38,16 +38,16 @@ function Photo() {
         <h4>2021</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2021/trinity'}>{links.trinity}</NavLink>
+            <NavLink to={'/2021/trinity'}>{data.links.trinity}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2021/winter'}>{links.different}</NavLink>
+            <NavLink to={'/2021/winter'}>{data.links.different}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2021/throne'}>{links.throne}</NavLink>
+            <NavLink to={'/2021/throne'}>{data.links.throne}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2021/easter'}>{links.easter}</NavLink>
+            <NavLink to={'/2021/easter'}>{data.links.easter}</NavLink>
           </li>
         </ul>
       </section>
@@ -55,13 +55,13 @@ function Photo() {
         <h4>2020</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2020/different'}>{links.different}</NavLink>
+            <NavLink to={'/2020/different'}>{data.links.different}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2020/willow'}>{links.willow}</NavLink>
+            <NavLink to={'/2020/willow'}>{data.links.willow}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2020/easter'}>{links.easter}</NavLink>
+            <NavLink to={'/2020/easter'}>{data.links.easter}</NavLink>
           </li>
         </ul>
       </section>
@@ -69,7 +69,7 @@ function Photo() {
         <h4>2019</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2019/different'}>{links.different}</NavLink>
+            <NavLink to={'/2019/different'}>{data.links.different}</NavLink>
           </li>
         </ul>
       </section>
@@ -77,16 +77,16 @@ function Photo() {
         <h4>2018</h4>
         <ul>
           <li className="photo-list">
-            <NavLink to={'/2018/christmas'}>{links.christmas}</NavLink>
+            <NavLink to={'/2018/christmas'}>{data.links.christmas}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2018/throne'}>{links.throne}</NavLink>
+            <NavLink to={'/2018/throne'}>{data.links.throne}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2018/trinity'}>{links.trinity}</NavLink>
+            <NavLink to={'/2018/trinity'}>{data.links.trinity}</NavLink>
           </li>
           <li className="photo-list">
-            <NavLink to={'/2018/different'}>{links.different}</NavLink>
+            <NavLink to={'/2018/different'}>{data.links.different}</NavLink>
           </li>
         </ul>
       </section>

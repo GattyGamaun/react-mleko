@@ -1,11 +1,11 @@
-@import '../../sass/variables';
-@import '../../sass/media-query';
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
 
 .map {
   width: $main-width;
   height: 100vh;
 
-  @include media-query('xl') {
+  @include mq.media-query('xl') {
     width: 95vw;
   }
 
