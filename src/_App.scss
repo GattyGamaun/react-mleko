@@ -47,3 +47,25 @@ h4 {
   margin-bottom: 10px;
   text-align: center;
 }
+
+.f-center {
+  display: flex;
+  align-items: center;
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-025 {
+  gap: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}

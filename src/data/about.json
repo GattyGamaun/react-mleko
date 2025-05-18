@@ -64,9 +64,9 @@
         "mailto": "monalita25.01@gmail.com"
       },
       "bank": {
-        "account": "р/с BY34OLMP30150000014760000933",
-        "code": "код банка (БИК) OLMPBY2X",
-        "unp": "УНП 601066536"
+        "account": "BY34OLMP30150000014760000933",
+        "code": "OLMPBY2X",
+        "unp": "601066536"
       }
     },
     "name": {

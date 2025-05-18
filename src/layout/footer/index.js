@@ -4,6 +4,13 @@ import { NavLink } from 'react-router-dom';
 import data from '../../data/about.json';
 
 function Footer() {
+  function copy(text) {
+    if ('clipboard' in navigator) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Скопировано!');
+      });
+    }
+  }
   return (
     <footer>
       <div className="foot-wrap">
@@ -20,9 +27,24 @@ function Footer() {
           </address>
           <address className="info">{data.contacts.address.region}</address>
           <address className="info">{data.contacts.address.street}</address>
-          <address className="info">{data.contacts.address.bank.account}</address>
-          <address className="info">{data.contacts.address.bank.code}</address>
-          <address className="info">{data.contacts.address.bank.unp}</address>
+          <div className="f-center gap-025">
+            <address>р/с {data.contacts.address.bank.account}</address>
+            <button type="button" className="copy" onClick={() => copy(data.contacts.address.bank.account)}>
+              Копировать
+            </button>
+          </div>
+          <div className="f-center gap-025">
+            <address>код банка (БИК) {data.contacts.address.bank.code}</address>
+            <button type="button" className="copy" onClick={() => copy(data.contacts.address.bank.code)}>
+              Копировать
+            </button>
+          </div>
+          <div className="f-center gap-025">
+            <address>УНП {data.contacts.address.bank.unp}</address>
+            <button type="button" className="copy" onClick={() => copy(data.contacts.address.bank.unp)}>
+              Копировать
+            </button>
+          </div>
         </div>
         <div className="foot-section center">
           <h5 className="foot-title">{data.contacts.name.title}</h5>
@@ -32,7 +54,7 @@ function Footer() {
         </div>
         <div className="foot-section list">
           <h5>{data.links.title}</h5>
-          <ul className="foot-links">
+          <ul className="foot-links gap-1">
             {Object.entries(data.mainLinks).map((link) => {
               return (
                 <li className="info" key={link[0]}>
