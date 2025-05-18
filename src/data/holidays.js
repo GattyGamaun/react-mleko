@@ -1554,3 +1554,41 @@ export const ringer2023 = [
     height: 74,
   },
 ];
+
+export const kids2025 = [
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-1.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-2.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-3.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-4.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-5.jpg`,
+    width: 16,
+    height: 8,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-6.jpg`,
+    width: 12,
+    height: 7,
+  },
+  {
+    src: `${scheme}/assets/photo/2025/kids/kids_2025-7.jpg`,
+    width: 12,
+    height: 9,
+  },
+];

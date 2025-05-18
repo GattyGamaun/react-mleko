@@ -7,6 +7,14 @@ function Photo() {
   return (
     <React.Fragment>
       <section className="photo">
+        <h4>2025</h4>
+        <ul>
+          <li className="photo-list">
+            <NavLink to={'/2025/kids'}>Ученики 1 класса школы Ихвис</NavLink>
+          </li>
+        </ul>
+      </section>
+      <section className="photo">
         <h4>2023</h4>
         <ul>
           <li className="photo-list">
