@@ -10,6 +10,11 @@ function Photo() {
         <h4>2025</h4>
         <ul>
           <li className="photo-list">
+            <NavLink to={'/2025/blessing'}>Освящение храма</NavLink>
+          </li>
+        </ul>
+        <ul>
+          <li className="photo-list">
             <NavLink to={'/2025/kids'}>Ученики 1 класса школы Ихвис</NavLink>
           </li>
         </ul>

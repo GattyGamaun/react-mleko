@@ -12,6 +12,8 @@ import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
 import HtmlVideoList from './components/html-video-list';
 
+import { blessing } from './data/blessing';
+
 import {
   buildings_2017_1,
   buildings_2017_2,
@@ -143,6 +145,9 @@ ReactDOM.render(
         </Route>
         <Route path="/2025/kids">
           <GetPhotos photos={kids2025} />
+        </Route>
+        <Route path="/2025/blessing">
+          <GetPhotos photos={blessing} />
         </Route>
         <Route component={NotFound} />
       </Switch>
