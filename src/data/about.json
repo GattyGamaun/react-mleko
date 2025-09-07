@@ -117,7 +117,8 @@
     "googlemap": {
       "title": "Google карта",
       "href": "https://goo.gl/maps/8CxLaT5V6s9HxwmUA"
-    }
+    },
+    "mainImgUrl": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/main-image.jpg"
   },
   "mainLinks": {
     "schedule": "Расписание",
