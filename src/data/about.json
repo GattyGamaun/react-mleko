@@ -76,7 +76,7 @@
       "episcopate": "Минская епархия"
     },
     "developer": {
-      "name": "Разработал сайт Сергей Кондратюк 2017-2023",
+      "name": "Разработал сайт Сергей Кондратюк 2017-2025",
       "href": "https://old.minds.by/news/bogoslovskie-aspekty-v-biblejskih-predisloviyah-frantsiska-skoriny"
     }
   },
@@ -122,7 +122,7 @@
   "mainLinks": {
     "schedule": "Расписание",
     "gallery": "Фотогалерея",
-    "building": "Основной храм",
+    "video": "Видео",
     "contacts": "Расположение"
   },
   "buildings": {
@@ -131,6 +131,10 @@
       "link2": "https://www.youtube.com/embed/Vxn5sXXzzrM",
       "link3": "https://www.youtube.com/embed/LW_Zc9G2Tqo",
       "link4": "https://www.youtube.com/embed/ztn6z9w255c"
+    },
+    "blessing": {
+      "url": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/blessing.mp4",
+      "title": "Освящение храма"
     }
   }
 }

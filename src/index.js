@@ -7,7 +7,7 @@ import './index.css';
 import Main from './layout/main';
 import Contacts from './layout/contacts';
 import Photo from './layout/photo';
-import Building from './layout/building';
+import Video from './layout/video';
 import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
 import HtmlVideoList from './components/html-video-list';
@@ -57,7 +57,7 @@ ReactDOM.render(
         <Route path="/" component={Main} exact />
         <Route path="/gallery" component={Photo} />
         <Route path="/contacts" component={Contacts} />
-        <Route path="/building" component={Building} />
+        <Route path="/video" component={Video} />
         <Route path="/2016/different">
           <GetPhotos photos={different_2016} />
         </Route>

@@ -10,7 +10,7 @@ module.exports = {
   mode: 'development',
   entry: './index.js',
   output: {
-    filename: 'bundle.[hash].js',
+    filename: '[fullhash].js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
   },
@@ -58,6 +58,17 @@ module.exports = {
             loader: 'file-loader',
             options: {
               outputPath: 'out-images',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'out-media',
             },
           },
         ],

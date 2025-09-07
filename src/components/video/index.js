@@ -1,8 +1,13 @@
 import data from '../../data/about.json';
+import HtmlVideo from '@/components/html-video-list/html-video';
 
 const VideoFrame = () => {
   return (
     <section className="video">
+      <div className="m-2 mt-1" style={{ textAlign: 'center' }}>
+        <h5>{data.buildings.blessing.title}</h5>
+        <HtmlVideo src={data.buildings.blessing.url} height="450" />
+      </div>
       <div className="m-2">
         <iframe title="Ретроспектива" src={data.buildings.youtube.link4} />
       </div>

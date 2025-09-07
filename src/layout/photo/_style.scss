@@ -1,4 +1,15 @@
 @use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
+
+.wrapper {
+  display: flex;
+  gap: 40px;
+
+  @include mq.media-query('md') {
+    flex-direction: column;
+    gap: 0;
+  }
+}
 
 .photo {
   margin: 20px auto;

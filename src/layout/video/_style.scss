@@ -1,0 +1,7 @@
+@use '../../sass/media-query' as mq;
+@use '../../sass/variables' as *;
+
+h5 {
+  color: $text;
+  font-family: 'Playfair Display', 'Helvetica', serif;
+}

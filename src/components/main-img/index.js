@@ -1,5 +1,5 @@
 import React from 'react';
-import large from './img/main-img-desktop.png';
+import large from './img/main-img.jpg';
 import './_style.scss';
 
 function MainImg() {
