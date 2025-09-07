@@ -11,6 +11,7 @@ import Video from './layout/video';
 import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
 import HtmlVideoList from './components/html-video-list';
+import data from './data/about.json';
 
 import { blessing } from './data/blessing';
 
@@ -147,7 +148,7 @@ ReactDOM.render(
           <GetPhotos photos={kids2025} />
         </Route>
         <Route path="/2025/blessing">
-          <GetPhotos photos={blessing} />
+          <GetPhotos photos={blessing} title={data.buildings.blessing.title} />
         </Route>
         <Route component={NotFound} />
       </Switch>

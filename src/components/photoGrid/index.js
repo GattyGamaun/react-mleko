@@ -17,13 +17,14 @@ const GetPhotos = (props) => {
   };
   return (
     <section className="photo">
+      <h4>{props.title}</h4>
       <Gallery photos={props.photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={props.photos.map(x => ({
+              views={props.photos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title,

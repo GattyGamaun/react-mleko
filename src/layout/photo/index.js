@@ -11,7 +11,7 @@ function Photo() {
           <h4>2025</h4>
           <ul>
             <li className="photo-list">
-              <NavLink to={'/2025/blessing'}>Освящение храма</NavLink>
+              <NavLink to={'/2025/blessing'}>Освящение храма 13 июля 2025</NavLink>
             </li>
           </ul>
           <ul>
