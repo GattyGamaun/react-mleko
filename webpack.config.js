@@ -12,6 +12,7 @@ module.exports = {
   output: {
     filename: 'bundle.[hash].js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -24,6 +25,7 @@ module.exports = {
   devServer: {
     port: 3000,
     hot: isDev,
+    historyApiFallback: true,
   },
   devtool: isDev ? 'source-map' : false,
   module: {
