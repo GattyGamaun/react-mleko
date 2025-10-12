@@ -24,6 +24,9 @@ function Aside() {
         </figure>
       </Fragment>
       <article>
+        <img src={data.aside.workingHours.img.src} alt={data.aside.workingHours.img.alt} />
+      </article>
+      <article>
         <img src={data.aside.charity_qr.img.src} alt={data.aside.charity_qr.img.alt} />
       </article>
       <article>

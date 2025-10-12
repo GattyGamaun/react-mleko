@@ -36,6 +36,12 @@
         "title": "свщмч. Дмитрий Павский"
       }
     },
+    "workingHours": {
+      "img": {
+        "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/working-hours.jpg",
+        "alt": "часы работы"
+      }
+    },
     "charity_qr": {
       "img": {
         "src": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/common/qr.png",
