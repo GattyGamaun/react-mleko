@@ -1,20 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export default Component => class Accordion extends React.Component {
-  state = {
-    openItemId: null
+export default (Component) => (props) => {
+  const [openItemId, setOpenItemId] = useState(null);
+
+  const toggleOpenItem = (itemId) => () => {
+    setOpenItemId(itemId === openItemId ? null : itemId);
   };
 
-  render() {
-    return <Component {...this.props}
-                      toggleOpenItem = {this.toggleOpenItem}
-                      openItemId = {this.state.openItemId}
-    />
-  }
-
-  toggleOpenItem = (openItemId) => ev => {
-    this.setState({
-      openItemId: openItemId === this.state.openItemId ? null : openItemId
-    });
-  }
-}
+  return <Component {...props} toggleOpenItem={toggleOpenItem} openItemId={openItemId} />;
+};

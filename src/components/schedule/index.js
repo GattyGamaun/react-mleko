@@ -1,33 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './_style.scss';
 import data from '../../data/about.json';
 
-class Schedule extends Component {
-  date = new Date();
+const Schedule = () => {
+  const date = new Date();
 
-  render() {
-    return (
-      <figure>
-        <figcaption>
-          <h3>{data.schedule.title}</h3>
-        </figcaption>
-        <img
-          src={`${data.schedule.url}?${this.getDay()}`}
-          alt="Актуальное расписание в Viber в группе Млекопитательница"
-        />
-        <p>{data.schedule.note}</p>
-        <p className="updated">{this.getDate()}</p>
-      </figure>
-    );
-  }
+  const getDate = () => {
+    return `Сегодня ${date.getDate()} ${date.getMonth() + 1} ${date.getFullYear()}`;
+  };
 
-  getDate() {
-    return `Сегодня ${this.date.getDate()} ${this.date.getMonth() + 1} ${this.date.getFullYear()}`;
-  }
+  const getDay = () => {
+    return getDate();
+  };
 
-  getDay() {
-    return this.getDate();
-  }
-}
+  return (
+    <figure>
+      <figcaption>
+        <h3>{data.schedule.title}</h3>
+      </figcaption>
+      <img src={`${data.schedule.url}?${getDay()}`} alt="Актуальное расписание в Viber в группе Млекопитательница" />
+      <p>{data.schedule.note}</p>
+      <p className="updated">{getDate()}</p>
+    </figure>
+  );
+};
 
 export default Schedule;
