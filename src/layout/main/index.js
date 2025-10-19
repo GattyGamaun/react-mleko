@@ -6,6 +6,7 @@ import Schedule from '../../components/schedule';
 import BackToTop from '../../components/backToTop';
 import Aside from '../aside';
 import './_style.scss';
+import WorkingHours from '@/components/working-hours';
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       </div>
       <div className="wrapper">
         <section className="main">
+          <WorkingHours />
           <Schedule />
           <ListOfArticles articles={articles} />
           <BackToTop />

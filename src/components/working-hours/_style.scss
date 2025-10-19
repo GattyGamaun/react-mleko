@@ -1,0 +1,22 @@
+@use '../../sass/variables' as *;
+@use '../../sass/media-query' as mq;
+
+article {
+  padding: 20px;
+  text-align: center;
+
+  @include mq.media-query('xl') {
+    padding: 15px;
+  }
+
+  @include mq.media-query('md') {
+    margin: $md 0;
+    padding: 10px;
+  }
+}
+
+p {
+  text-indent: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+}

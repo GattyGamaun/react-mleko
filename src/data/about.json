@@ -10,6 +10,11 @@
     "note": "В расписании возможны изменения",
     "url": "https://xn--80aanbnckgfdshn7bb2e5e.xn--90ais/assets/schedule.jpg"
   },
+  "workingHours": {
+    "title": "Храм открыт",
+    "days": "Среда - Воскресенье",
+    "hours": "c 9:00 до 20:00"
+  },
   "aside": {
     "library": {
       "title": "На приходе работает библиотека",
@@ -83,7 +88,7 @@
     },
     "developer": {
       "name": "Разработал сайт Сергей Кондратюк 2017-2025",
-      "href": "https://old.minds.by/news/bogoslovskie-aspekty-v-biblejskih-predisloviyah-frantsiska-skoriny"
+      "href": "http://kronsh.prihod.ru/stati_prikhozhan/view/id/1187060"
     }
   },
   "links": {
