@@ -33,10 +33,10 @@ function Photo() {
           <h4>2022</h4>
           <ul>
             <li className="photo-list">
-              <NavLink to={'/2022/video/winter'}>{data.links.winterChurch}</NavLink>
+              <NavLink to={'/2022/winter'}>{data.links.winterChurch}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2022/video/inner'}>{data.links.inner}</NavLink>
+              <NavLink to={'/2022/inner'}>{data.links.inner}</NavLink>
             </li>
             <li className="photo-list">
               <NavLink to={'/2022/tabynsk'}>{data.links.tabynsk}</NavLink>
@@ -71,18 +71,18 @@ function Photo() {
               <NavLink to={'/2021/easter'}>{data.links.easter}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2021/video/winter'}>{data.links.winterChurch}</NavLink>
+              <NavLink to={'/2021/winter'}>{data.links.winterChurch}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2021/video/komelin'}>{data.links.komelin}</NavLink>
+              <NavLink to={'/2021/komelin'}>{data.links.komelin}</NavLink>
             </li>
           </ul>
 
           <h4>2020</h4>
           <ul>
-            <li className="photo-list">
-              <NavLink to={'/2020/different'}>{data.links.different}</NavLink>
-            </li>
+            {/*<li className="photo-list">*/}
+            {/*  <NavLink to={'/2020/different'}>{data.links.different}</NavLink>*/}
+            {/*</li>*/}
             <li className="photo-list">
               <NavLink to={'/2020/willow'}>{data.links.willow}</NavLink>
             </li>
@@ -90,7 +90,7 @@ function Photo() {
               <NavLink to={'/2020/easter'}>{data.links.easter}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2020/video/different'}>{data.links.different}</NavLink>
+              <NavLink to={'/2020/3'}>{data.links.building_3}</NavLink>
             </li>
           </ul>
 
@@ -100,7 +100,7 @@ function Photo() {
               <NavLink to={'/2019/different'}>{data.links.different}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2019/video/bells'}>{data.links.bells}</NavLink>
+              <NavLink to={'/2019/bells'}>{data.links.bells}</NavLink>
             </li>
           </ul>
         </section>
@@ -124,10 +124,10 @@ function Photo() {
           <h4>2017</h4>
           <ul>
             <li className="photo-list">
-              <NavLink to={'/2017/video/1'}>{data.links.building_1}</NavLink>
+              <NavLink to={'/2017/1'}>{data.links.building_1}</NavLink>
             </li>
             <li className="photo-list">
-              <NavLink to={'/2017/video/2'}>{data.links.building_2}</NavLink>
+              <NavLink to={'/2017/2'}>{data.links.building_2}</NavLink>
             </li>
           </ul>
 
