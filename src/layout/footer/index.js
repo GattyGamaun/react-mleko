@@ -47,10 +47,11 @@ function Footer() {
           </div>
         </div>
         <div className="foot-section center">
-          <h5 className="foot-title">{data.contacts.name.title}</h5>
-          <span className="info">{data.contacts.name.episcopate}</span>
+          <span className="info">{data.contacts.name.patriarhate}</span>
           <span className="info">{data.contacts.name.exarchate}</span>
           <span className="info">{data.contacts.name.global}</span>
+          <span className="info">{data.contacts.name.episcopate}</span>
+          <h5 className="foot-title">{data.contacts.name.title}</h5>
         </div>
         <div className="foot-section list">
           <h5>{data.links.title}</h5>
