@@ -53,25 +53,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              outputPath: 'out-images',
-            },
-          },
-        ],
-      },
-      {
-        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              outputPath: 'out-media',
-            },
-          },
-        ],
+        type: 'asset/resource',
       },
     ],
   },
@@ -83,7 +65,7 @@ module.exports = {
       inject: 'body',
     }),
     new MiniCssExtractPlugin({
-      filename: 'styles.css',
+      filename: '[name].css',
     }),
   ],
 };
