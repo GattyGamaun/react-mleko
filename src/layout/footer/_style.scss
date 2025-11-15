@@ -78,7 +78,7 @@ h5 {
 .foot-title {
   margin-top: 1rem;
 
-  &::before {
+  &::after {
     content: "";
     display: block;
     width: 250px;
