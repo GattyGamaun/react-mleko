@@ -49,6 +49,16 @@ h5 {
   &.center {
     align-items: center;
     text-align: center;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 250px;
+      height: 27px;
+      margin: 10px auto;
+      background: url("./img/divider-white.png") no-repeat;
+      background-size: 255px;
+    }
   }
 
   &.list {
@@ -77,16 +87,6 @@ h5 {
 
 .foot-title {
   margin-top: 1rem;
-
-  &::after {
-    content: "";
-    display: block;
-    width: 250px;
-    height: 27px;
-    margin: 10px auto;
-    background: url("./img/divider-white.png") no-repeat;
-    background-size: 255px;
-  }
 }
 
 .info {
