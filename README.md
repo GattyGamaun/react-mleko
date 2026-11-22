@@ -19,3 +19,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Church notes (`/note`, `/admin`)
+
+The note form (`/note`) and its admin panel (`/admin`) talk to the `nodejs-mleko` backend
+(`/api/notes`, `/api/admin/*`). By default requests go to the same origin; set `API_BASE`
+at build time to point to another host, e.g. `API_BASE=https://api.example.com npm run build`.
