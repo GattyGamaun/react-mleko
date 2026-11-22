@@ -24,7 +24,7 @@ export type ChurchNote = {
   paidAt?: string | null;
 };
 
-const apiBase = import.meta.env.VITE_API_BASE ?? '';
+const apiBase = process.env.API_BASE;
 
 async function api<T>(path: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(`${apiBase}${path}`, options);

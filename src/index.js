@@ -8,6 +8,8 @@ import Main from './layout/main';
 import Contacts from './layout/contacts';
 import Photo from './layout/photo';
 import Video from './layout/video';
+import Note from './layout/note';
+import NoteAdmin from './layout/note/admin';
 import GetPhotos from './components/photoGrid';
 import NotFound from './components/notFound';
 import HtmlVideoList from './components/html-video-list';
@@ -62,6 +64,8 @@ root.render(
         <Route path="/gallery" element={<Photo />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/video" element={<Video />} />
+        <Route path="/note" element={<Note />} />
+        <Route path="/admin" element={<NoteAdmin />} />
         <Route path="/2016/different" element={<GetPhotos photos={different_2016} />} />
         <Route path="/2017/1" element={<GetPhotos photos={buildings_2017_1} />} />
         <Route path="/2017/2" element={<GetPhotos photos={buildings_2017_2} />} />
